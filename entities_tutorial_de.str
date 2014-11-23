@@ -1,0 +1,63 @@
+// Tutorial
+
+// Ability_PyromancerTutorial1
+Ability_PyromancerTutorial1_name										Phoenix Wave
+Ability_PyromancerTutorial1_description									Pyromancer sendet einen Phönix aus, der den Feinden in einer Linie Schaden zufügt.
+Ability_PyromancerTutorial1_description_simple							Wähle die Richtung um eine Feuerwelle auszusenden, die bei Berührung ^o{100,170,240,310} magischen Schaden^* an den Gegner zufügt.
+Ability_PyromancerTutorial1_effect_header								Status Effect(s)
+Ability_PyromancerTutorial1_IMPACT_effect								Fügt {100,170,240,310} magischen Schaden bei jedem Ziel in einer Linie Schaden zu.
+Ability_PyromancerTutorial1_IMPACT_effect:Alt2							Fügt {100,170,240,310} magischen Schaden bei jedem Ziel in einer Linie Schaden zu.
+Ability_PyromancerTutorial1_tooltip_flavor								Inhalt kann heiss sein!
+
+// Ability_PyromancerTutorial2
+Ability_PyromancerTutorial2_name										Dragonfire
+Ability_PyromancerTutorial2_description									Pyromancer beschwört an der Zielposition einen mächtigen und elementaren Feuerdrachen, der die Feinde im Umkreis schädigt und paralysiert.
+Ability_PyromancerTutorial2_description_simple							Wähle die Richtung um ^o{90,150,210,280} magischen Schaden^* und eine ^o1.6 sekündige Paralyse^* im Radius zuzufügen. 
+Ability_PyromancerTutorial2_effect_header								Status Effekt(e)
+Ability_PyromancerTutorial2_IMPACT_effect								Fügt {90,150,210,280} magischen Schaden und Paralyse an jedem Ziel im Radius für 1.6 Sekunden zu.
+Ability_PyromancerTutorial2_IMPACT_effect:Alt2							Fügt {90,150,210,280} magischen Schaden und Paralyse an jedem Ziel im Radius für 1.6 Sekunden zu.
+Ability_PyromancerTutorial2_tooltip_flavor								Manakosten? Gecheckt.\nAbklingzeit? Gecheckt\nDie Fähigkeit einen Drachen herbeizurufen?\n\nUnbezahlbar.
+
+// Ability_PyromancerTutorial3
+Ability_PyromancerTutorial3_name										Fervor
+Ability_PyromancerTutorial3_description									Pyromancer wird einer Flamme immer ähnlicher und erhöht seine Angriffsgeschwindigkeit und seine Geschwindigkeit beim Wirken von Zaubern.
+Ability_PyromancerTutorial3_description_simple							^rPassiv^* gibt ^o{10,20,30,40} Geschwindigkeit beim Wirken von Zaubern^*. On spell cast, grants stacking ^o{2,3,4,5}% Movement Speed^* and ^o{20,30,40,50}% Attack Speed^* buffs for 6 Sekunden.\n\nEvery time you damage an enemy he gains a charge and receives ^o{1,2,3,4} Magic Damage per second^* per charge.
+Ability_PyromancerTutorial3_effect_header								Fervor Effekt(e)
+Ability_PyromancerTutorial3_effect_header2								Burning! Effekt(e)
+Ability_PyromancerTutorial3_IMPACT_effect								On any spell damage or attack damage done, applies Burning! to the target for 3 seconds.
+Ability_PyromancerTutorial3_ABILITY_IMPACT_effect						Applies Fervor to self for 6 seconds and adds one charge, maximum of 3 charges.
+Ability_PyromancerTutorial3_ABILITY_IMPACT_effect:Alt2					Applies Fervor to self for 6 seconds and adds one charge, maximum of 3 charges.
+Ability_PyromancerTutorial3_tooltip_flavor								Burn, Baby, burn!
+
+// State_PyromancerTutorial_Ability3
+State_PyromancerTutorial_Ability3_name									Fervor
+
+// State_PyromancerTutorial_Ability3_Burning
+State_PyromancerTutorial_Ability3_Burning_name							Burning!
+State_PyromancerTutorial_Ability3_Burning_FRAME_effect					{1,2,3,4} Magic Damage per second per charge
+
+// State_PyromancerTutorial_Ability3_Burning_Building
+State_PyromancerTutorial_Ability3_Burning_Building_name					Burning!
+State_PyromancerTutorial_Ability3_Burning_Building_FRAME_effect			{1,2,3,4} Magic Damage per second per charge
+
+// Ability_PyromancerTutorial4
+Ability_PyromancerTutorial4_name										Blazing Strike
+Ability_PyromancerTutorial4_description									Using power granted from Sol, PyromancerTutorial hurls a blazing hot fireball at a target enemy, dealing massive damage.
+Ability_PyromancerTutorial4_description2								^930This ability can be boosted by ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gStaff Effect:^* Increases damage from {450,675,950} to {650,875,1150}.
+Ability_PyromancerTutorial4_description_simple							Target an enemy unit to deal ^o{450,675,950} Magic Damage^* to it.\n\n^gStaff of the Master^* increases the damage dealt^*.
+Ability_PyromancerTutorial4_effect_header								Status Effect(s)
+Ability_PyromancerTutorial4_IMPACT_effect								Deals {450,675,950} Magic Damage to target.
+Ability_PyromancerTutorial4_IMPACT_effect:Alt2							Deals {450,675,950} Magic Damage to target.
+Ability_PyromancerTutorial4_IMPACT_effect:Alt3							Deals {450,675,950} Magic Damage to target.
+Ability_PyromancerTutorial4_name:ult_boost								Inferno Strike ^g(Boosted)^*
+Ability_PyromancerTutorial4_description2:ult_boost						This ability has been boosted by Staff of the Master.
+Ability_PyromancerTutorial4_description_simple:ult_boost				Target an enemy unit to deal ^g{650,875,1150}^* ^oMagic Damage^* to it.
+Ability_PyromancerTutorial4_IMPACT_effect:ult_boost						Deals ^g{650,875,1150}^* Magic Damage to target.
+Ability_PyromancerTutorial4_tooltip_flavor								It's kinda like pitching a baseball. Of fire.
+
+// Hero_PyromancerTutorial
+Hero_PyromancerTutorial_name											Pyromancer
+Hero_PyromancerTutorial_description										For centuries, the Sacred Order has recognized the "Flame-Touched," those men and women filled with a burning, if more than slightly mad, devotion to Sol.  Those Flame-Touched who serve in the Legion are more commonly called PyromancerTutorials for their mastery over fire, and creatures strongly attuned to that element.
+Hero_PyromancerTutorial_role											The Pyromancer is a spike magic damage dealer that can incinerate an enemy within seconds by using his three damage spells in quick succession. Because his Dragonfire stun is delayed on cast, he is best paired with another hero with a ranged stun.
+
+// End - do not delete this line
