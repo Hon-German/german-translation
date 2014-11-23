@@ -1,7 +1,7 @@
-# Git auf Deutsch
+# HoN auf Deutsch
 
 Da die bisherige deutsche Übersetzung sehr fehlerhaft und veraltet war, habe
-ich damit begonnen sie neu zu übersetzen.
+ich damit begonnen HoN neu zu übersetzen.
 
 ## Mithelfen
 
