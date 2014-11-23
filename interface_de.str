@@ -414,7 +414,7 @@ options_repair_confirm_desc					Möchtest du wirklich versuchen die Installation
 	
 options_reset_opt_confirm					Alle Optionen zurücksetzen
 options_reset_con_confirm					Reset All Controls
-options_reset_shop_confirm					Clear Shop Hotkeys
+options_reset_shop_confirm					Clear Shop Tastaturkürzel
 options_reset_confirm_desc					Bist du sicher?
 
 options_play_notification_sounds			Spiele Benachrichtigungs-Töne
@@ -810,7 +810,7 @@ options_label_close_shop_keybind			Shop - Close Panel
 options_label_recipe_history_back_keybind	Recipe History Back
 options_label_recipe_history_for_keybind	Recipe History Forward
 options_btn_reset_all_controls				Reset All Controls
-options_btn_clear_shopkeys					Clear Shop Hotkeys
+options_btn_clear_shopkeys					Clear Shop Tastaturkürzel
 
 options_label_chat_show_tab_1				Show Chat Tab 1
 options_label_chat_show_tab_2				Show Chat Tab 2
@@ -5667,7 +5667,7 @@ game_shop_label_buycomponents_total			TOTAL COST
 game_shop_label_total_cost_tip				The total cost of a recipe includes both the recipe cost and the cost of the component items required to complete the recipe. Using this button will attempt to purchase all items required for this recipe, placing any items you can purchase either in your inventory or in your stash.
 game_shop_label_shoptip_header				Shop Information
 game_shop_label_shoptip_summary				The Shop has two main categories, items and recipes. Items are the individual components that are used to create recipes. Some recipes require you to purchase an actual recipe item after buying its components in order to complete the recipe, while others will form automatically once you have the required components.\n\nIf you accidentally purchase an item, you have a 15 second grace period in which you can sell it back for a full refund.
-game_shop_label_shoptip_featuresheader		Shop Features and Hotkeys:
+game_shop_label_shoptip_featuresheader		Shop Features and Tastaturkürzel:
 game_shop_label_shoptip_features			To view what recipes an item is used in, hold ^gSHIFT^* and ^gLEFT CLICK^* on that item.\n\nTo move an item from your inventory to your stash or from your stash to your inventory, hold ^gCTRL^* and ^gRIGHT CLICK^* on it.\n\nTo sell an item, either pick it up with ^gRIGHT CLICK^* then drop it on the shop interface with ^gLEFT CLICK^*, or hold ^gCTRL^* and ^gSHIFT^* then ^gRIGHT CLICK^* on it.
 
 game_shop_label_components					Komponenten
@@ -5763,7 +5763,7 @@ game_alt_couriers_unlock					Kurier entsperren
 
 game_mentor_help_1							Willkommen als Mentor!
 game_mentor_help_2							Hier sind einige Dinge, die du tun kannst...
-game_mentor_help_3							Hotkeys
+game_mentor_help_3							Tastaturkürzel
 game_mentor_help_4							Mentor Chat
 game_mentor_help_5							Tap
 game_mentor_help_6							Mentor Voice Chat
@@ -5775,26 +5775,26 @@ game_mentor_help_15 						Übermittle deinen Zeiger
 
 game_objectives_quests						Quests
 
-courier_state_Idle 							Courier Idle
-courier_state_GettingStashItems 			Courier Getting Stash Items
-courier_state_DeliveringItems 				Courier Delivering Items
-courier_state_Returning						Courier Returning
-courier_state_Roaming						Courier Roaming
-courier_state_Dead							Courier Dead
+courier_state_Idle 							Kurier untätig
+courier_state_GettingStashItems 			Kurier holt Gegenstände aus Versteck
+courier_state_DeliveringItems 				Kurier ausliefernd
+courier_state_Returning						Kurier zurückkehrend
+courier_state_Roaming						Kurier wandernd
+courier_state_Dead							Kurier tot
 
 courier_state_Idle_desc 					The courier is idle and waiting to serve you!
 courier_state_GettingStashItems_desc		The courier is loading up with stashed items!
 courier_state_DeliveringItems_desc			The courier is on his way and will be delivering the items he is carrying soon!
 courier_state_Returning_desc				The courier is returning to the well!
 courier_state_Roaming_desc					The courier is out, being controlled by someone. However, it is not performing any particular task.
-courier_state_Dead_desc						The courier is dead!
+courier_state_Dead_desc						Der Kurier ist tot!
 
-courier_action 								Use Courier
+courier_action 								Kurier benutzen
 courier_action_desc 						Clicking this will cause the courier to collect what it can carry from your stash, deliver them to you as fast as it can, and then return to the well!
 
-courier_status_dead 						Courier Dead
-courier_status_private 						Private Courier
-courier_status_shared 						Shared Courier
+courier_status_dead 						Kurier tot
+courier_status_private 						Privater Kurier
+courier_status_shared 						Öffentlicher Kurier
 
 courier_status_dead_desc					The courier is dead, there is no courier that can deliver items to you!
 courier_status_private_desc					You own a private courier that you can choose to share with your teammates.
@@ -5814,7 +5814,7 @@ game_krosmode_base_health					{health} Pts
 
 // game_chat.package
 gamechat_button_send_message				Nachricht senden
-gamechat_tip_hit_history					^y*Tip:^* Hit "{key}" to bring up chat history
+gamechat_tip_hit_history					^y*Tip:^* Drücke "{key}" um den Chatverlauf anzuzeigen
 gamechat_indicate_team						[TEAM]
 gamechat_indicate_all						[ALL]
 gamechat_indicate_mentor					[MENT]
@@ -5826,7 +5826,7 @@ game_chat_for								^yChat für: ^* {target}
 game_chat_im_recieve 						^800(IM from {target})
 game_chat_im_send 							^400(IM to {target})
 
-game_recipe									Recipe
+game_recipe									Rezept
 game_name									UnnamedNewbie Game
 
 // main_local_browser.package
@@ -6754,8 +6754,8 @@ pofeatures_feature_noleaver					Leaver Protection
 pofeatures_feature_noleavertxt				Create and play in restricted games that can not be joined by players with a history of leaving games early.
 pofeatures_feature_netcode					Client-Server Netcode
 pofeatures_feature_netcodetxt				No lag for all players when one player has a connection issue!
-pofeatures_feature_hotkeys					Re-Bindable Hotkeys
-pofeatures_feature_hotkeystxt				Bind custom hotkeys for almost every command in the game, allowing you to maximize your effectiveness.
+pofeatures_feature_Tastaturkürzel					Re-Bindable Tastaturkürzel
+pofeatures_feature_Tastaturkürzeltxt				Bind custom Tastaturkürzel for almost every command in the game, allowing you to maximize your effectiveness.
 pofeatures_feature_voip						Built in VOIP
 pofeatures_feature_voiptxt					No need for an external voice chat program. Voice chat is incorporated into the HoN engine.
 pofeatures_pptoday							To Pre-Purchase, Visit Our Website Today!
@@ -6879,7 +6879,7 @@ game_lobby_swap_tip							Diesem Spieler diese Farbe zuteilen
 game_lobby_assign_spectator_tip				Diesen Spieler als Zuschauer zuteilen
 game_lobby_assign_referee_tip				Diesen Spieler als Schiedsrichter zuteilen
 game_lobby_assign_host_tip					Diesen Spieler als Gastgeber zuteilen
-game_lobby_kick_tip							Diesen Spieler rausschmeissen
+game_lobby_kick_tip							Diesen Spieler feuern
 
 game_lobby_banning							Banning
 game_lobby_hidden_banning					Banning
@@ -6939,21 +6939,21 @@ filter_ranged_tip							Ranged heroes are capable of attacking enemies from a sa
 filter_favorites_tip						Highlights your favorited heroes! Heroes can be favorited in the Learnatorium.
 filter_reset_tip							Resets and clears the currently selected filters and search.
 
-filters_tip_title 							Hero Filters
+filters_tip_title 							Helden-Filter
 filters_tip_body 							Filter heroes by categories. Left click a category to enable it, right click to enable only that category. The requirements for heroes to match your filters drops as you enable more filters.
 
 // game_menu.interface
 game_menu_header							Spielmenü
 game_menu_client_functions_header			Client Functions
 game_menu_share_control_header				Unit Control Sharing Options and Player Voting
-game_menu_share_full						Full
-game_menu_share_courier						Courier
+game_menu_share_full						Voll
+game_menu_share_courier						Kurier
 game_menu_add_friend_tip					Add {player}^* to Friends List
-game_menu_return_button						Return To Game
+game_menu_return_button						Zum Spiel zurückkehren
 game_menu_options_button					Optionen
 game_menu_disconnect_button					Trennen
-game_menu_concede_button					Concede
-game_menu_remake_button						Remake
+game_menu_concede_button					Aufgeben
+game_menu_remake_button						Wiederholen
 game_menu_quit_button						HoN verlassen
 game_menu_match_id							Match ID: {id}
 game_menu_share_control_text				You may share control of your units with your teammates. It can be useful to share control with teammates to allow them to use your pets.
@@ -6963,7 +6963,7 @@ game_menu_disconnect_confirm				Are you sure you want to disconnect?
 game_menu_disconnect_hide_checkbox			Don't Show This Message Again
 game_menu_disconnect_noleaver				You may leave without penalty.
 game_menu_leave_percentage_text				Your Leave Percentage is the percentage of games that you have left before finishing.  Many players will create games that require a certain Leave Percentage.  By disconnecting too many games early (a high percentage), you may limit your ability to join those restricted games.
-game_menu_quit_header						Confirm Quit
+game_menu_quit_header						Verlassen bestätigen
 game_menu_quit_confirm						Are you sure you want to exit to desktop?
 game_menu_leave_rate_text					Leave Rate:
 game_menu_empty_slot						-Empty Player Slot-
@@ -7002,11 +7002,11 @@ game_menu_report_a_player					Spieler melden
 game_menu_report_a_player_tip				File a report of abusive behavior.
 
 game_menu_menu								Menü
-game_menu_kick								Rausschmeissen
-game_menu_kick_afk							AFK rausschmeissen
+game_menu_kick								Feuern
+game_menu_kick_afk							AFK feuern
 game_menu_chat								Chat
 game_menu_vote								Abstimmen
-game_menu_vote_kick							Spieler rausschmeissen
+game_menu_vote_kick							Spieler feuern
 game_menu_vote_spec							Zuschauer
 game_menu_vote_ment							Mentoring
 
@@ -7038,8 +7038,8 @@ game_menu_remake_btn						Call Remake Vote
 // game_vote.package
 vote_concede								Aufgeben?
 vote_remake									Wiederholen?
-vote_kick									Kick {target}^*?
-vote_kick_afk								Kick {target}^*?
+vote_kick									{target}^* feuern?
+vote_kick_afk								{target}^* feuern?
 vote_pause									Pausieren?
 mentoring_mentor_request_string				{target} zulassen?
 mentoring_mentor							Mentor
@@ -7262,12 +7262,12 @@ game_setup_allrandom						All Random
 game_setup_Garena_Info						View The Garena VIP Benefits
 
 // tooltips
-tooltip_passive_bonuses						Passive Bonuses
+tooltip_passive_bonuses						Passiver Bonus
 tooltip_aura								Aura 
-tooltip_aura_effects						Aura Effect(s)
-tooltip_activation							Activation
-tooltip_activation1							Activation  [^y{key1}^*]
-tooltip_activation2							Activation  [^y{key1}^*, ^y{key2}^*]
+tooltip_aura_effects						Aura Effekt(e)
+tooltip_activation							Aktivierung
+tooltip_activation1							Aktivierung  [^y{key1}^*]
+tooltip_activation2							Aktivierung  [^y{key1}^*, ^y{key2}^*]
 tooltip_ally_abilities						Abilities
 tooltip_ally_attributes						Attributes
 tooltip_attack_info							Attack Information
@@ -7286,8 +7286,8 @@ tooltip_value								Value:
 tooltip_type								Type: 
 tooltip_range								Range: 
 tooltip_radius								Radius: 
-tooltip_attack_type_range					Ranged
-tooltip_attack_type_melee					Melee
+tooltip_attack_type_range					Fernkampf
+tooltip_attack_type_melee					Nahkampf
 tooltip_channeling_time						Channeling Time: {time} seconds
 tooltip_mana_cost							Mana cost: 
 tooltip_mana_upkeep							Mana upkeep: {value} per second
@@ -7297,10 +7297,10 @@ tooltip_health								Health:
 tooltip_health_regen						Health Regeneration: 
 tooltip_total_experience					Total Experience: 
 tooltip_next_level							Next Level: 
-tooltip_armor								Armor: 
+tooltip_armor								Rüstung: 
 tooltip_armor_msg							Higher armor values reduce the amount of physical damage that a hero will take.
 tooltip_damage_reduction					Damage Reduction: ^y
-tooltip_magic_armor							Magic Armor: 
+tooltip_magic_armor							Magische Rüstung: 
 tooltip_magic_armor_msg						Higher magic armor values reduce the amount of damage that a hero takes from certain spells and abilities.
 tooltip_magic_damage_reduction				Magic Damage Reduction: ^y
 tooltip_combat_type							Combat Type: 
@@ -7308,21 +7308,21 @@ tooltip_primary_attribute					Primary Attribute:
 tooltip_strength_per_level					Strength per Level: 
 tooltip_agility_per_level					Agility per Level: 
 tooltip_intelligence_per_level				Intelligence per Level: 
-tooltip_strength							Strength: 
+tooltip_strength							Stärke: 
 tooltip_strenght_msg						Each point of strength increases the hero's maximum health and health regeneration rate.
-tooltip_agility								Agility: 
+tooltip_agility								Beweglichkeit: 
 tooltip_agility_msg							Each point of agility increases the hero's armor and attack speed.
-tooltip_intelligence						Intelligence: 
+tooltip_intelligence						Intelligenz: 
 tooltip_intelligence_msg					Each point of intelligence increases the hero's maximum mana and mana regeneration rate.
-tooltip_damage								Damage: 
+tooltip_damage								Schaden: 
 tooltip_attack_speed						Attack Speed: 
 tooltip_attack_speed_msg					This value dictates how many times per second that this hero attacks.
 tooltip_cast_speed							Cast Speed: 
 tooltip_attack_type							Attack Type: 
 tooltip_attack_msg							This is the type of attack the hero uses.  Melee attackers fight up close, while ranged attackers fight from afar.
-tooltip_base_attack_cooldown				Base Attack Cooldown: {time} seconds
-tooltip_attack_cooldown						Attack Cooldown: ^y{time} seconds
-tooltip_attacks_per_second					^y{value}^* attacks per second
+tooltip_base_attack_cooldown				Base Attack Cooldown: {time} Sekunde
+tooltip_attack_cooldown						Attack Cooldown: ^y{time} Sekunde
+tooltip_attacks_per_second					^y{value}^* Angriff pro Sekunde
 tooltip_gold								Gold: 
 tooltip_label_changecolors					Toggle unique player colors on/off
 tooltip_combattype							Combat Type: 
@@ -7379,9 +7379,9 @@ tooltip_reset_lvl							Reset Level
 tooltip_reset_lvl_msg						Click here to reset the hero's level back to 1.
 tooltip_open_shop							Laden öffnen
 tooltip_open_shop_msg						Click here to open the shop interface and add items to the selected hero's inventory.
-tooltip_reset_inv							Reset Inventory
+tooltip_reset_inv							Inventar zurücksetzen
 tooltip_reset_inv_msg						Click here to clear the selected hero's inventory.
-tooltip_compendium_guide					Hero Guides
+tooltip_compendium_guide					Helden-Führer
 tooltip_compendium_guide_msg				Official and community guides on how to improve your play with a specific hero. 
 tooltip_compendium_usage_header				Hero Usage
 tooltip_compendium_usage					Usage
@@ -7428,13 +7428,13 @@ tooltip_report								Report Abusive Behavior
 tooltip_report_disabled_title				Report Abusive Behavior 
 tooltip_report_disabled_msg					This feature is only available for verified accounts.
 
-tooltip_general_nofriend_title				Player
+tooltip_general_nofriend_title				Spieler
 tooltip_general_nofriend_msg				Right click for interaction options.
-tooltip_general_friend_title				Friend
+tooltip_general_friend_title				Freund
 tooltip_general_friend_msg					Right click for interaction options.
-tooltip_general_verified_title				Verified
+tooltip_general_verified_title				Bestätigt
 tooltip_general_verified_msg				Verified accounts have access to verified-only features.
-tooltip_general_basic_title					Basic
+tooltip_general_basic_title					Standart
 tooltip_general_basic_msg					Basic accounts cannot access verified-only features.
 
 // ui_items.package
@@ -7442,34 +7442,34 @@ ui_items_friend_clan_label					Clan
 ui_items_friend_no_clan_label				Kein
 ui_items_friend_server_label				^yServer: ^*
 ui_items_friend_game_time_label				^ySpielzeit: ^*
-ui_items_friend_right_click_label			Right-click for options
+ui_items_friend_right_click_label			Rechtsklick für Optionen
 ui_items_slider_low							Tief
 ui_items_slider_high						Hoch
 ui_items_cc_right_click_send_message		Nachricht senden
 ui_items_cc_right_click_follow				Folgen
 ui_items_cc_right_click_unfollow			Ent-Folgen
 ui_items_cc_right_click_joing_game			Spiel beitreten
-ui_items_cc_right_click_message_clan		Message Entire Clan
-ui_items_cc_right_click_view_stats			View Stats
-ui_items_cc_right_click_add_buddy			Add Friend
-ui_items_cc_right_click_remove_buddy		Remove Friend
-ui_items_cc_right_click_remove_buddytxt		Are you sure you want to remove this friend?
-ui_items_cc_right_click_invite_to_game		Invite to Game
+ui_items_cc_right_click_message_clan		Nachricht an ganzen Clan
+ui_items_cc_right_click_view_stats			Statistik ansehen
+ui_items_cc_right_click_add_buddy			Freund hinzufügen
+ui_items_cc_right_click_remove_buddy		Freund entfernen
+ui_items_cc_right_click_remove_buddytxt		Möchtest du diesen Freund wirklich entfernen?
+ui_items_cc_right_click_invite_to_game		Zum Spiel einladen
 
-ui_items_cc_right_click_kick_tmm			Kick Player
-ui_items_cc_right_click_invite_to_tmm		Invite to Group
-ui_items_cc_right_click_user_info			User Info
-ui_items_cc_right_click_channel_kick		Kick from Channel
-ui_items_cc_right_click_channel_ban			Ban from Channel
+ui_items_cc_right_click_kick_tmm			Spieler feuern
+ui_items_cc_right_click_invite_to_tmm		In die Gruppe einladen
+ui_items_cc_right_click_user_info			Benutzerinfo
+ui_items_cc_right_click_channel_kick		Vom Kanal feuern
+ui_items_cc_right_click_channel_ban			Vom Kanal verbannen
 ui_items_cc_right_click_channel_silence		Silence User
-ui_items_cc_right_click_ignore				Ignore
+ui_items_cc_right_click_ignore				Ignorieren
 ui_items_cc_right_click_ignoretxt			Are you sure you want to ignore this player?
-ui_items_cc_right_click_unignore			Unignore
+ui_items_cc_right_click_unignore			Nicht ignorieren
 ui_items_cc_right_click_addban				Add to Banlist
 ui_items_cc_right_click_addbantxt			Are you sure you want to add this player to your banlist?
 ui_items_cc_right_click_remban				Remove from Banlist
-ui_items_cc_right_click_channel_promote		Promote (Channel)
-ui_items_cc_right_click_channel_demote		Demote (Channel)
+ui_items_cc_right_click_channel_promote		Promote (Kanal)
+ui_items_cc_right_click_channel_demote		Demote (Kanal)
 ui_items_cc_right_click_clan_promote		Promote (Clan)
 ui_items_cc_right_click_clan_demote			Demote (Clan)
 ui_items_cc_right_click_clan_remove			Remove from Clan
@@ -7493,18 +7493,18 @@ ui_items_patchupdate						Update your client?
 ui_items_patchupdatetxt						Your client will be disconnected before updating to the new patch.  Do you want to continue?
 
 // player_statistics.package
-player_statistics_name						Statistics: ^w{name}
+player_statistics_name						Statistiken: ^w{name}
 player_statistics_skill_factor				SF: ^w{value}
 
 // private_chatpass.package
-private_chat_header							Private Chat Password
+private_chat_header							Privates Chat Passwort
 private_chat								You must enter a password to enter this private chat room.
-private_chat_btn							Join Channel
+private_chat_btn							Kanal betreten
 
 // Clan invites
 clan_invite_body_label				You have been invited to join the clan {clan} by {inviter}.
-clan_invite_header_label			Clan Invite
-chat_success_clan_name_tip			Clan Name and Tag are Available.
+clan_invite_header_label			Clan-Einladung
+chat_success_clan_name_tip			Clan Name und Tag sind verfügbar.
 
 Shop_Accessories_description									Trinkets and treasures that primarily provide a boost to basic stats.
 Shop_Recipes1_description										Basic items for Heroes first starting their adventures.
@@ -7536,7 +7536,7 @@ Shop_Search_Shop												Laden durchsuchen...
 game_command_tooltip_name_move			Bewegen
 game_command_tooltip_name_attack		Angreifen
 game_command_tooltip_name_stop			Stop
-game_command_tooltip_name_hold			Hold
+game_command_tooltip_name_hold			Halten
 game_command_tooltip_name_patrol		Patrol
 game_command_tooltip_name_taunt			Taunt
 game_command_tooltip_desc_move			Moves units to a target position.
@@ -7547,13 +7547,13 @@ game_command_tooltip_desc_patrol		The unit will move back and forth between its 
 game_command_tooltip_desc_taunt			Taunts target enemy hero. You will be revealed to your target's team while you taunt. Kill taunted target within 30 seconds to earn a smak down.
 
 // main_passchange.package
-main_passchange_title						Password Update Required
+main_passchange_title						Passwortänderung benötigt
 main_passchange_expired						Your password is expired or is set to expire soon!
 main_passchange_expired_txt					Once your password has expired you will no longer be able to play Heroes of Newerth until you change it.  Please choose a new password now to avoid any gameplay interruptions.
 main_passchange_note						^yNote:^* You can not reuse your old password, and your new password must be at least six characters long.
-main_passchange_newpass						New Password
-main_passchange_newpass2					Confirm Password
-main_passchange_btn							Set New Password
+main_passchange_newpass						Neues Passwort
+main_passchange_newpass2					Passwort bestätigen
+main_passchange_btn							Neues Passwort einrichten
 main_passchange_cancel						Abrechen, Nicht jetzt
 
 // patchnotes.package
@@ -7581,7 +7581,7 @@ weekday_thursday_short				Don
 weekday_friday_short				Fre
 weekday_saturday_short				Sam
 
-loading_tiptitle				Game Hint
+loading_tiptitle				Spieltipp
 loading_tip1					Holding ^gCONTROL^* while using the shop will display recipe scrolls instead of the item, allowing you to quickly purchase the recipe.
 loading_tip2					While using an ability, you can hold ^gSHIFT^* and select another ability to put it in your ability queue. As soon as the first ability has completed the next ability will fire immediately after.
 loading_tip3					You can attack your own creeps when they are low health. If you kill them it results in a "deny" and surrounding enemies get much less experience than they would normally.
@@ -7673,11 +7673,11 @@ mm3_pvp_advancedmode			Advanced Options...
 mm3_pvp_simplemaps 				Maps
 mm3_pvp_simplemaps_desc 		Caldavar is the standard 5v5 map.\nMidwars is an action packed single lane.
 mm3_pvp_simplemodes_ap 			All Pick
-mm3_pvp_simplemodes_ap_desc1 	All Heroes Available
-mm3_pvp_simplemodes_ap_desc2 	Standard HoN Mode
+mm3_pvp_simplemodes_ap_desc1 	All Helden verfügbar
+mm3_pvp_simplemodes_ap_desc2 	Standard HoN Modus
 mm3_pvp_simplemodes_cp			Core Pool
 mm3_pvp_simplemodes_cp_desc1 	Focused to a pool of 40 heroes
-mm3_pvp_simplemodes_cp_desc2	Great for learning!
+mm3_pvp_simplemodes_cp_desc2	Gut fürs lernen!
 mm3_pvp_simplemodes_bb			Blind Ban
 mm3_pvp_simplemodes_bb_desc1 	Six Heroes are banned before selecting
 mm3_pvp_simplemodes_bb_desc2	All remaining heroes can be chosen
@@ -7724,13 +7724,13 @@ disconnect_mm_player_left		A player has timed out or left the game, the match wi
 disconnect_mm_start_timeout		One or more players failed to connect to the server, the game will now be cancelled.
 
 mm_title						Spiele ein Spiel
-mm_verified						1. Choose Opponents
-mm_maps							2. Choose Your Map
+mm_verified						1. Wähle Gegner
+mm_maps							2. Wähle deine Karte
 mm_modes						3. Select Game Modes
-mm_region						4. Select Regions
+mm_region						4. Wähle die Region
 mm_start						5. Select Matchmaking Mode
 mm_gated						6. Game Type
-mm_verified_2					{value}. Choose Opponents
+mm_verified_2					{value}. Wähle Gegner
 mm_maps_2						{value}. Choose Your Map
 mm_modes_2						{value}. Select Game Modes
 mm_region_2						{value}. Select Regions
@@ -7790,7 +7790,7 @@ mm_popularity					Allowing more Game Modes and Server Regions will increase the 
 mm_popularity2					Allowing more Game Modes and Server Regions will increase the popularity of your matchmaking settings, resulting in shorter queue times. \\n\\n Mode Selection: {mode} \\n Region Selection: {region} 
 mm_queue_enter_btn				Enter Queue
 mm_queue_leave_btn				Leave Queue
-mm_ready_btn					Ready
+mm_ready_btn					Bereit
 mm_notready_btn					Un-Ready
 mm_arehost						You're The Group Leader
 mm_waiting_forgroup				Waiting for Other Players
@@ -7808,17 +7808,17 @@ mm_queue_fidelity3				Fairer Matches
 mm_queue_fidelity_tt_desc		While searching for a match, you are able to prioritize getting into a game faster, or finding a game in which the players are more closely skilled.
 mm_group_queue_rejoin			Your group was placed back into the queue at the previous wait time the group leader waited...
 
-mm_gen_casual					Casual
+mm_gen_casual					Gelegentlich
 mm_gen_normal					Normal
 
-mm_buytoken_title				Buy Token?
-mm_buytoken_body				Purchase a token to play this mode?
-mm_buytoken_buytoken			Purchase Token
+mm_buytoken_title				Token kaufen?
+mm_buytoken_body				Einen Token kaufen um diesen Modus zu spielen?
+mm_buytoken_buytoken			Token kaufen
 
 mm_servernotidle				Unable to Join Server
 mm_servernotidle_body			Unable to join the server.  Please re-enter the queue.
 
-mm_left							Left Group
+mm_left							Gruppe verlassen
 mm_left_body					You have left the matchmaking group.
 mm_disconnected					Disconnected
 mm_disconnected_body			You have been disconnected from matchmaking.
@@ -7828,14 +7828,14 @@ mm_groupqueued					Unable to Join Matchmaking
 mm_groupqueued_body				You were unable to join the group because the group has already been placed into the matchmaking queue.
 mm_istrial						Unable to Join Matchmaking
 mm_istrial_body					Trial accounts are not allowed to join matchmaking games.
-mm_unknown						Disconnected
-mm_unknown_body					Disconnected from matchmaking.
+mm_unknown						Getrennt
+mm_unknown_body					Getrennt vom Matchmaking.
 mm_joiningqueue					Joining Queue
 mm_joiningqueue_body			Attempting to enter the Matchmaking Queue, please wait...
-mm_joinmatch					Joining Match
-mm_joinmatch_body				Joining Match, please wait...
+mm_joinmatch					Betrete Spiel
+mm_joinmatch_body				Betrete Spiel, bitte warten...
 
-mm_group_leave					Leave This Group
+mm_group_leave					Diese Gruppe verlassen
 mm_group_invite					Invite by Player Name
 mm_group_slot_empty				-Open Group Slot-
 mm_group_slot_locked			-Locked Due To Map-
@@ -8611,18 +8611,18 @@ specui_base_health_team			Team Base Health
 specui_base_health_team_tip		Remaining base health for the team, used as points in Rift Wars.
 
 specui_help_1						Willkommen Zuschauer!
-specui_help_2						Here's a few things you can do...
-specui_help_3						Hotkeys
-specui_help_4						Show More Infomation
-specui_help_5						Hold
+specui_help_2						Hier sind einige Dinge, die du tun kannst...
+specui_help_3						Tastaturkürzel
+specui_help_4						Zeige mehr Informationen
+specui_help_5						Halten
 specui_help_6						Change Information Tab
 specui_help_7						Tap
-specui_help_8						Mouse
+specui_help_8						Maus
 specui_help_9						Jump to Player Location
 specui_help_10	  					on any Hero Portrait
 specui_help_11    					on Health, Mana, or Abilities
-specui_help_12   					Click 
-specui_help_13   					for more options
+specui_help_12   					Klicke 
+specui_help_13   					für mehr Optionen
 specui_help_14  					Display Labels
 specui_help_15  					Lock/Unlock camera on player
 specui_help_16  					Show / Hide UI Elements
@@ -8641,8 +8641,8 @@ specui_options_showTips				Show Tooltips
 specui_options_showTips_txt			Uncheck to hide tooltips when hovering over team and player info.
 specui_options_showItemPurch		Item Purchases
 specui_options_showItemPurch_txt	Pop up item purchases next to player unitframes.
-specui_options_showHotkeys			Show Hotkeys
-specui_options_showHotkeys_txt		Display hotkeys on the Spec UI.
+specui_options_showTastaturkürzel			Zeige Tastaturkürzel
+specui_options_showTastaturkürzel_txt		Zeige Tastaturkürzel auf der Spec UI.
 specui_options_detectCombat			Detect Combat
 specui_options_detectCombat_txt		Display icons of players currently in combat. Pressing the hotkey will jump the camera to this player.
 specui_options_miniMode				Minimalist Top Bar
@@ -8792,7 +8792,7 @@ rap_3_nonevent_li_1					Player was playing poorly due to a lack of skill
 rap_3_nonevent_li_2					Player died early game unintentionally
 rap_3_nonevent_li_3					Player claims he is going to feed but never does
 rap_3_nonevent_li_4					Player is under leveled and dies easily
-rap_3_nonevent_li_5					Player has disconnected
+rap_3_nonevent_li_5					Spieler wurde getrennt
 rap_3_nonevent_detail				If a player is intentionally feeding it will be apparent in their behavior, usually by running down the lane to the enemies to die, over and over again. Players will often announce they are going to feed, however this isn't always the case. If a player begins to feed they will usually do it multiple times to ensure defeat. 
 rap_3_nonevent_example				Player "1337honn3r" reports: "Offender went 2/6 mid and made us lose the game." This report was marked innocent because the offender did not intentionally feed. Although they may have failed during the lane-phase the offender was simply playing poorly.
 
@@ -9318,7 +9318,7 @@ tpp_repick_hero				Repick Hero
 tpp_creeps					Creeps
 tpp_spawn					Spawn
 tpp_tablets					Tablets
-tpp_trees					Trees
+tpp_trees					Bäume
 tpp_neutrals				Neutrals
 tpp_kongor					Kongor
 tpp_hero_stats				Hero Stats (toggle)
@@ -9328,15 +9328,15 @@ tpp_hpmp_regen				HP/MP Regen
 tpp_movespeed				MovingSpeed
 tpp_game_speed				Game Speed
 tpp_instant_pause			Instant Pause (toggle)
-tpp_disc					Disconnect
-tpp_quit					Quit
-tpp_restart					Restart
+tpp_disc					Trennen
+tpp_quit					Verlassen
+tpp_restart					Neustarten
 tpp_extraoptions			Extra Options
 tpp_cameraoptions			Camera Options
 tpp_spawner					Spawner
-tpp_items					Items
-tpp_help					Help
-tpp_close					Close
+tpp_items					Gegenstände
+tpp_help					Hilfe
+tpp_close					Schliessen
 tpp_reload					Reload
 tpp_dyn_reload				Dynamic Reload (toggle)
 tpp_gxftoggle				Graphics (toggle)
@@ -9451,16 +9451,16 @@ chat_opt_whisper					Flüstern
 chat_opt_tab_header_1				Chat Optionen
 chat_opt_tab_1						Short Format
 chat_opt_tab_1_desc 				Abbreviate chat type indicator
-chat_opt_tab_2						Hero Icons
+chat_opt_tab_2						Helden Icons
 chat_opt_tab_2_desc 				Include hero icon in chat message
-chat_opt_tab_3						Hero Names
+chat_opt_tab_3						Heldenname
 chat_opt_tab_3_desc					Include hero name in chat message
 chat_opt_tab_4						Nick Highlight
-chat_opt_tab_5						Chat Sounds
-chat_opt_tab_5_options 				In-Game Chat Sounds
+chat_opt_tab_5						Chat Töne
+chat_opt_tab_5_options 				Im-Spiel Chat Töne
 chat_opt_tab_5_desc					Play sound with new message
 
-chat_walkthrough_info_1				Hold '{key}' to view chat history and options.
+chat_walkthrough_info_1				Halte '{key}' um den Chatverlauf und die Optionen anzuzeigen.
 chat_walkthrough_info_2				Left click the tabs above the chat window to quickly change chat filters.
 chat_walkthrough_info_3				Right click the tabs above the chat window add or remove chat channels from each tab.
 chat_walkthrough_info_4				You have automatically activated the All Chat tab by using All Chat. Hold '{key}' to select a different tab.
@@ -9544,11 +9544,11 @@ hontour_match_removed_title			Scheduled Match Removed
 hontour_match_removed_desc			The scheduled match has been removed. You have left the lobby
 
 hontour_match_left_header			Scheduled Match
-hontour_match_left_title			Left Lobby.
+hontour_match_left_title			Lobby verlassen.
 hontour_match_left_desc				You have left the scheduled match
 
 hontour_match_dc_header				Scheduled Match
-hontour_match_dc_title				Disconnected
+hontour_match_dc_title				Getrennt
 hontour_match_dc_desc				Your have been disconnected from the scheduled match
 
 hontour_tournament_available		Scheduled Match Available
@@ -9583,24 +9583,24 @@ maliken_says5						Let me end this letter of appreciation with a standing ovatio
 maliken_says6						Warmest Regards,
 maliken_says7						Marc "Maliken" DeForest
 
-maliken_says_sea1						Dear Friends & Fellow Gamers,
-maliken_says_sea2						We can't believe it has been 1 year since we officially launched our beloved game Garena Heroes of Newerth. It has been an amazing journey so far...
-maliken_says_sea3						One candle placed on a cake, one first birthday wish to make! Remember that playtime is never over, even as one gets older! As we grow to form an even bigger HoN family, weâ€™d like you to know that youâ€™ve made a significant impact to our lives. We thank you for your invaluable support, patience and most importantly, friendship, in contributing to where we are now and who we have become.
-maliken_says_sea4						4 million heroes have shown their honour, strength, bravery and intelligence in the world of Newerth, hailing from places near and far, with Thai, Vietnamese and Indonesian heroes joining in the fray. Hundreds of thousands of battles happen every day, everywhere, with six hundred thousand heroes engaged in conflict each week, casting ripples which alter a battlefield that spans the entire SEA. Out of all this, we hope to bring the experience youâ€™ve been waiting for. In our efforts to be more community oriented, weâ€™ve been putting your voices as priority for the changes we make. Your support is our constant motivation.
-maliken_says_sea5						With you with us, this marks beginning of a new era where games come to life. Weâ€™d like to thank you once more, for granting us this experience. We are now even more confident and dedicated to bringing more soul into Garena Heroes of Newerth.
-maliken_says_sea6						Warmest Regards,
-maliken_says_sea7						Garena HoN Team
+maliken_says_sea1								Dear Friends & Fellow Gamers,
+maliken_says_sea2								We can't believe it has been 1 year since we officially launched our beloved game Garena Heroes of Newerth. It has been an amazing journey so far...
+maliken_says_sea3								One candle placed on a cake, one first birthday wish to make! Remember that playtime is never over, even as one gets older! As we grow to form an even bigger HoN family, weâ€™d like you to know that youâ€™ve made a significant impact to our lives. We thank you for your invaluable support, patience and most importantly, friendship, in contributing to where we are now and who we have become.
+maliken_says_sea4								4 million heroes have shown their honour, strength, bravery and intelligence in the world of Newerth, hailing from places near and far, with Thai, Vietnamese and Indonesian heroes joining in the fray. Hundreds of thousands of battles happen every day, everywhere, with six hundred thousand heroes engaged in conflict each week, casting ripples which alter a battlefield that spans the entire SEA. Out of all this, we hope to bring the experience youâ€™ve been waiting for. In our efforts to be more community oriented, weâ€™ve been putting your voices as priority for the changes we make. Your support is our constant motivation.
+maliken_says_sea5								With you with us, this marks beginning of a new era where games come to life. Weâ€™d like to thank you once more, for granting us this experience. We are now even more confident and dedicated to bringing more soul into Garena Heroes of Newerth.
+maliken_says_sea6								Warmest Regards,
+maliken_says_sea7								Garena HoN Team
 
-maliken_says_cis1 Друзья! 
-maliken_says_cis2 Команда Garena CIS поздравляет вас с Новым Годом (дожили!), Рождеством и первым годом Heroes of Newerth в России!
-maliken_says_cis3 5 января 2012 года официально заработали российские сервера HoN. За прошедший год количество игроков превысило 600 000 человек и мы продолжаем упорно расти. В марте были проведены первые турниры серии G Series, по итогам которых две наши команды поехали в Швецию на международный турнир Dreamhon. И это только начало.
-maliken_says_cis4 Что ждет нас в новом году? Во-первых, в начале года грядет HoN 3.0 с огромным списком новых фич и исправлений, которые существенно улучшат качество и разнообразие игры. Мы будем развивать систему турниров, Sport. Garena станет полноценным порталом с большим количеством  интересных фишек, полезных для начинающих и про-команд. Да, и победители G1 Winter поедут в Таиланд.
-maliken_says_cis5 Поменьше вам лагов, больше жестких, захватывающих и запоминающихся боев, еще больше – побед, как в игре, так и в жизни. Закаляйте нервы, тренируйте характер! И пусть жизнь и игра не вытесняют, а приятно дополняют друг друга.
-maliken_says_cis6 С праздниками, друзья!
-maliken_says_cis7 Несите хардкор в массы!	
+maliken_says_cis1 								Друзья! 
+maliken_says_cis2 								Команда Garena CIS поздравляет вас с Новым Годом (дожили!), Рождеством и первым годом Heroes of Newerth в России!
+maliken_says_cis3 								5 января 2012 года официально заработали российские сервера HoN. За прошедший год количество игроков превысило 600 000 человек и мы продолжаем упорно расти. В марте были проведены первые турниры серии G Series, по итогам которых две наши команды поехали в Швецию на международный турнир Dreamhon. И это только начало.
+maliken_says_cis4 								Что ждет нас в новом году? Во-первых, в начале года грядет HoN 3.0 с огромным списком новых фич и исправлений, которые существенно улучшат качество и разнообразие игры. Мы будем развивать систему турниров, Sport. Garena станет полноценным порталом с большим количеством  интересных фишек, полезных для начинающих и про-команд. Да, и победители G1 Winter поедут в Таиланд.
+maliken_says_cis5 								Поменьше вам лагов, больше жестких, захватывающих и запоминающихся боев, еще больше – побед, как в игре, так и в жизни. Закаляйте нервы, тренируйте характер! И пусть жизнь и игра не вытесняют, а приятно дополняют друг друга.
+maliken_says_cis6 								С праздниками, друзья!
+maliken_says_cis7 								Несите хардкор в массы!	
 
 // Recap Tips
-hero_tip_disable_tips	Disable Tips
+hero_tip_disable_tips							Tips ausschalten
 
 hero_tip_offensive_tip_Hero_Accursed_1			During Flame Consumption, place yourself in harm's way to heal more. Cauterize will also heal you.
 hero_tip_offensive_tip_Hero_Accursed_2			Use Fire Shield to remove debuffs and stuns from allies.
@@ -10288,22 +10288,22 @@ match_stat_rewards_tooltip_reward_disabled_desc	Rewards Infomation is not availa
 ms_toolip_desc_ms_rewards_player_breakdown		Detailed progress information for player statistic milestones.
 ms_toolip_desc_ms_rewards_match_breakdown		Detailed information on available coin and experience bonuses.
 	
-ms_toolip_reward_wins							Wins Bonus
+ms_toolip_reward_wins							Siegesbonus
 ms_toolip_reward_kills							Kills Bonus
 ms_toolip_reward_assists						Assists Bonus
 ms_toolip_reward_wards							Wards Bonus
 ms_toolip_reward_smackdowns						Smackdowns Bonus
 	
-ms_toolip_match_finished						Match Finished
-ms_toolip_first_match							A Game A Day
+ms_toolip_match_finished						Spiel beenden
+ms_toolip_first_match							Ein Spiel, ein Tag
 ms_toolip_social_bonus							Social Bonus		
 ms_toolip_consecutive_bonus						Consecutive Bonus
 ms_toolip_bloodlust								Bloodlust
 ms_toolip_immortal								Immortal
 ms_toolip_annihilation							Annihilation
 	
-ms_toolip_ms_rewards_player_breakdown		Player Breakdown
-ms_toolip_ms_rewards_match_breakdown		Match Breakdown
+ms_toolip_ms_rewards_player_breakdown			Player Breakdown
+ms_toolip_ms_rewards_match_breakdown			Match Breakdown
 	
 ms_toolip_desc_reward_wins						Gain bonus experience and silver coins for each 50 wins!
 ms_toolip_desc_reward_kills						Gain bonus experience and silver coins for each 250 Hero Kills!
@@ -10343,7 +10343,7 @@ ms_match_reward_special_1_3_header				HoN Fanatic
 ms_match_reward_special_2_3_page				Receive a total of 10 Alt Avatars, 6 Account Icons, 3 Symbols and more!
 ms_match_reward_special_3_3_page				Receive a total of 10 Alt Avatars, 5 Account Icons, 3 Symbols and more!
 	
-//ms_match_reward_special_1_2_header			Play 10 Games
+//ms_match_reward_special_1_2_header			Spiel 10 Spiele
 //ms_match_reward_special_1_2_subheader	
 //ms_match_reward_special_1_2_reward			All Heroes Unlocked
 //ms_match_reward_special_1_2_reward_desc		Every released hero in the game unlocked for playing 10 games during the Game HoN Event
@@ -10355,18 +10355,18 @@ ms_match_reward_special_3_3_page				Receive a total of 10 Alt Avatars, 5 Account
 //ms_match_reward_special_1_3_reward_desc		A BIG bundle for playing 10 games with friends during the Game HoN Event
 //ms_match_reward_special_1_3_icon				/ui/fe2/store/icons/bundle.tga		
 	
-//ms_match_reward_special_1_4_header			Play 25 Games
+//ms_match_reward_special_1_4_header			Spiel 25 Spiele
 //ms_match_reward_special_1_4_subheader	
 //ms_match_reward_special_1_4_reward			The Mega Bundle
 //ms_match_reward_special_1_4_reward_desc		A HUGE bundle for playing 25 games during the Game HoN Event
 //ms_match_reward_special_1_4_icon				/ui/fe2/store/icons/bundle.tga		
 
 ms_match_reward_special_3_10_icon               /ui/fe2/store/gold_coins.tga
-ms_match_reward_special_3_10_reward				Play 10 Games
-ms_match_reward_special_3_10_reward_desc		Earn 150 Gold Coins
+ms_match_reward_special_3_10_reward				Spiel 10 Spiele
+ms_match_reward_special_3_10_reward_desc		Verdiene 150 Goldmünzen
 ms_match_reward_special_3_11_icon               /ui/fe2/store/gold_coins.tga
-ms_match_reward_special_3_11_reward				Play 20 Games
-ms_match_reward_special_3_11_reward_desc		Earn 150 Gold Coins
+ms_match_reward_special_3_11_reward				Spiel 20 Spiele
+ms_match_reward_special_3_11_reward_desc		Verdiene 150 Goldmünzen
 
 // Gated Mode
 
@@ -10379,10 +10379,10 @@ matchmaking_tab_detailed_desc					Custom mode info
 
 // Match Replays
 match_replays_no_match_stats					Unable to retrieve match stats.
-match_stats_local_botgame 						You have completed a local bot game. Stats are not recorded for these games.
+match_stats_local_botgame 						Du hast ein lokales Spiel beendet. Statistiken werden für diese Spiele nicht aufgezeichnet.
 
 // Voting
-votes_required									Votes Required: {count}
+votes_required									Stimmen benötigt: {count}
 
 // Mute
 
@@ -10391,43 +10391,43 @@ im_muted										^rYou are currently muted and can only send instant messages t
 
 // Player Hosted
 
-ph_header_1					Player Hosted Games
-ph_search_games				Spiel suchen
-ph_create_game				Spiel erstellen
+ph_header_1										Player Hosted Games
+ph_search_games									Spiel suchen
+ph_create_game									Spiel erstellen
 
 // Referral
 
-sysbar_referral_title		Referrals
-sysbar_referral_title_desc	View your referrals and rewards!
-ref_string_1				Choose Your Referrer
-ref_string_int_2			Earn 300 Gold Goblin Coins!
-ref_string_garena_2			Earn 200 Silver Goblin Coins!
-ref_string_lat_2			Earn 300 Silver Goblin Coins!
-ref_string_3				Bla 3
-ref_string_4				Bla 4
-ref_string_5				Bla 5
-ref_string_6				Accept Selection
-ref_string_set				Set your referrer:
-ref_string_6_7				Accept
-ref_string_referrals 		Open Referrals
+sysbar_referral_title							Referrals
+sysbar_referral_title_desc						View your referrals and rewards!
+ref_string_1									Choose Your Referrer
+ref_string_int_2								Earn 300 Gold Goblin Coins!
+ref_string_garena_2								Earn 200 Silver Goblin Coins!
+ref_string_lat_2								Earn 300 Silver Goblin Coins!
+ref_string_3									Bla 3
+ref_string_4									Bla 4
+ref_string_5									Bla 5
+ref_string_6									Accept Selection
+ref_string_set									Set your referrer:
+ref_string_6_7									Accept
+ref_string_referrals 							Open Referrals
 
-ref_string_int_2_1			Bring deinen Freund zurück zu HoN
-ref_string_int_2_2			Earn Truly Epic Rewards!
-ref_string_int_2_3			1500 Silver per friend
-ref_string_int_2_4			Real Cash Rewards
-ref_string_int_2_5			Win a VIP Trip
-ref_string_int_2_6			Exklusiven Avatar
-ref_string_int_2_8			...und vieles mehr!
-ref_string_int_2_7			Bringe {name} zurück!
+ref_string_int_2_1								Bring deinen Freund zurück zu HoN
+ref_string_int_2_2								Earn Truly Epic Rewards!
+ref_string_int_2_3								1500 Silver per friend
+ref_string_int_2_4								Real Cash Rewards
+ref_string_int_2_5								Win a VIP Trip
+ref_string_int_2_6								Exklusiven Avatar
+ref_string_int_2_8								...und vieles mehr!
+ref_string_int_2_7								Bringe {name} zurück!
 
-ref_string_garena_2_1		Bring deinen Freund zurück zu HoN
-ref_string_garena_2_2		Earn Truly Epic Rewards!
-ref_string_garena_2_3		Huge Goblin Coin Rewards
-ref_string_garena_2_4		Exclusive Symbols
-ref_string_garena_2_5		Exklusiven Avatar
-ref_string_garena_2_6		Win a VIP Trip!
-ref_string_garena_2_8		...und vieles mehr!
-ref_string_garena_2_7		Bringe {name} zurück!
+ref_string_garena_2_1							Bring deinen Freund zurück zu HoN
+ref_string_garena_2_2							Earn Truly Epic Rewards!
+ref_string_garena_2_3							Huge Goblin Coin Rewards
+ref_string_garena_2_4							Exclusive Symbols
+ref_string_garena_2_5							Exklusiven Avatar
+ref_string_garena_2_6							Win a VIP Trip!
+ref_string_garena_2_8							...und vieles mehr!
+ref_string_garena_2_7							Bringe {name} zurück!
 
 ref_string_lat_2_1			Bring deinen Freund zurück zu HoN
 ref_string_lat_2_2			Earn Truly Epic Rewards!
@@ -10494,20 +10494,20 @@ learn_video_center_title 		Video Learning Center
 learn_walkthrough_title 		Anleitung
 
 // walk
-ui_main_walkthrough_1			You earned match rewards for completing your game!
-ui_main_walkthrough_2			You earned match rewards for completing your game! \n\nEnter the shop and use your match rewards to purchase an alt avatar
-ui_main_walkthrough_3			Click here to purchase the Female Pyromancer alt avatar.
-ui_main_walkthrough_4			Click here to enter match making for your next game.
-ui_main_walkthrough_5			Click here to learn more about Heroes of Newerth
-ui_main_walkthrough_0			Anleitung beenden
+ui_main_walkthrough_1				You earned match rewards for completing your game!
+ui_main_walkthrough_2				You earned match rewards for completing your game! \n\nEnter the shop and use your match rewards to purchase an alt avatar
+ui_main_walkthrough_3				Click here to purchase the Female Pyromancer alt avatar.
+ui_main_walkthrough_4				Click here to enter match making for your next game.
+ui_main_walkthrough_5				Click here to learn more about Heroes of Newerth
+ui_main_walkthrough_0				Anleitung beenden
 
 // stolen from the entites table
-HeroCategory_cc								Crowd Control
-HeroCategory_magic							Magic Damage
-HeroCategory_muc							Multi-unit Control
-HeroCategory_physical						Physical Damage
-HeroCategory_protective						Protective
-HeroCategory_tank							Tank
+HeroCategory_cc						Crowd Control
+HeroCategory_magic					Magic Damage
+HeroCategory_muc					Multi-unit Control
+HeroCategory_physical				Physical Damage
+HeroCategory_protective				Protective
+HeroCategory_tank					Tank
 
 // bot descriptions
 bot_description_ra					Amun-Ra serves as a pusher and mid-game carry that works well in most lanes. Authored by St0l3n_ID!
@@ -10538,19 +10538,19 @@ bot_description_bombardier			Bombardier is a ranged intelligence hero with stron
 bot_description_grinex				Grinex is a fast melee ganker whose stealth makes him a slippery foe. Authored by Darkfire!
 
 // Maintenance
-maintenance_general 			Wartungsarbeiten
-maintenance_vertical 			W\\na\\nr\\nt\\nu\\nn\\ng\\ns\\na\\nr\\nb\\ne\\ni\\nt\\ne\\nn\\n
-maintenance_feature 			{feature} Wartungsarbeiten
-maintenance_long_general 		This feature is currently under maintenance and is disabled. For more information, please check the forums.
-maintenance_long_feature 		{feature} is currently under maintenance and is disabled. For more information, please check the forums.
-maintenance_long_feature_are	{feature} are currently under maintenance and are disabled. For more information, please check the forums.
-maintenance_long_feature_the	The {feature} is currently under maintenance and is disabled. For more information, please check the forums.
-feature_botMatchmaking 			Bot Matchmaking
-feature_pvpMatchmaking 			PvP Matchamking
-feature_matchmaking 			Matchmaking
-feature_playerHosted 			Gastgeber Spiele
-feature_reportAPlayer 			Spieler melden
-feature_referAFriend 			Refer a Friend
+maintenance_general 				Wartungsarbeiten
+maintenance_vertical 				W\\na\\nr\\nt\\nu\\nn\\ng\\ns\\na\\nr\\nb\\ne\\ni\\nt\\ne\\nn\\n
+maintenance_feature 				{feature} Wartungsarbeiten
+maintenance_long_general 			This feature is currently under maintenance and is disabled. For more information, please check the forums.
+maintenance_long_feature 			{feature} is currently under maintenance and is disabled. For more information, please check the forums.
+maintenance_long_feature_are		{feature} are currently under maintenance and are disabled. For more information, please check the forums.
+maintenance_long_feature_the		The {feature} is currently under maintenance and is disabled. For more information, please check the forums.
+feature_botMatchmaking 				Bot Matchmaking
+feature_pvpMatchmaking 				PvP Matchamking
+feature_matchmaking 				Matchmaking
+feature_playerHosted 				Gastgeber Spiele
+feature_reportAPlayer 				Spieler melden
+feature_referAFriend 				Refer a Friend
 feature_ladder 					Ladder
 feature_playerStats 			Spieler Statistik
 feature_matchStats 				Match Statistik
