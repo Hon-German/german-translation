@@ -331,16 +331,16 @@ confirm_verify_bene_txt2					You will be able to choose to play with only other 
 confirm_verify_bene_txt3					Converting your Basic account into a Verified account is simple. Simply perform ONE of the following tasks:
 confirm_verify_bene_opt1					Play More Games
 confirm_verify_bene_opt1_txt1				You can earn a Verified account for free by simply playing more Matchmaking games! Once you reach the target level, your account will automatically become Verified.
-confirm_verify_bene_opt1_current			Your Current Level:
-confirm_verify_bene_opt1_target				Level Needed:
-confirm_verify_bene_opt2					Purchase Goblin Coins
+confirm_verify_bene_opt1_current			Dein aktueller Level:
+confirm_verify_bene_opt1_target				Level nötig:
+confirm_verify_bene_opt2					Kaufe Goblin Münzen
 confirm_verify_bene_opt2_txt1				To instantly convert to a Verified account, you can make a purchase of any Goblin Coin package.
-confirm_verify_bene_buycoinsnow				Buy Coins Now
-confirm_verify_bene_closeWindow				Close Window
+confirm_verify_bene_buycoinsnow				Kaufe jetzt Münzen
+confirm_verify_bene_closeWindow				Fenster schliessen
 
 //account.package
-account_retrieve_header						Retrieve Username or Password
-account_lost_username						Lost Username
+account_retrieve_header						Erhalte Benutzername oder Passwort
+account_lost_username						Benutzername vergessen
 account_lost_username_msg					Enter the email address attached to your account below to have your username sent to you.
 account_lost_username_processing			Verarbeite Anfrage, bitte warten...
 account_lost_username_success				An email containing your username has been sent to the email address attached to your account.
@@ -1179,22 +1179,21 @@ create_acc_agreement						By clicking the "Create Account" button, you are agree
 create_acc_customer_service					If you need assistance, please mail ^ysupport@heroesofnewerth.com^*.
 create_acc_secure_transfer					Your account information is secured with high-grade encryption before being transmitted over the internet.
 create_acc_info_text						Use this form to instantly create a new Heroes of Newerth account.
-create_acc_wait								Creating account, please wait...
-create_acc_submitting						Submitting purchase, please wait...
-create_acc_success							Account creation successful.  You can now log in using the new account.
-create_acc_already_loggedin					Already Logged In
+create_acc_wait								Erstelle Konto, bitte warten...
+create_acc_submitting						Konto erfolgreich erstellt.  You can now log in using the new account.
+create_acc_already_loggedin					Bereits angemeldet
 create_acc_mustlogout						You are already logged into a purchased Heroes of Newerth account.  Click Logout if you wish to create another account or log in and purchase Heroes of Newerth with a different account.
 create_acc_friends							Enter a friend's nickname to upgrade their account. ^y(Optional)
 create_acc_promocode						Have a coupon or promo code?  Enter it here:
 create_acc_nocc_xfer						The promotional code entered grants a free Heroes of Newerth account, and credit card information will not be submitted with this transaction.
 create_acc_nocc_xfer_subaccount				The promotional code entered grants a free Heroes of Newerth sub-account, and credit card information will not be submitted with this transaction.
-create_acc_successfull_purch				Purchase successful - your Heroes of Newerth account has been upgraded.  A receipt has been sent to your e-mail address.
+create_acc_successfull_purch				Kauf erfolgreich - your Heroes of Newerth account has been upgraded.  A receipt has been sent to your e-mail address.
 create_acc_friends							Upgrade a Friends Account
 create_acc_promocode						Enter a Promo Code
 create_acc_purchase_btn						Purchase Account
 create_already_logged_in_title				Account Upgraded
 create_already_upgraded						This account is already a full account, and can not be upgraded again.
-create_acc_total_price						Total Preis
+create_acc_total_price						Totalpreis
 create_acc_price_usd						Preis in (USD)
 create_acc_havecode							Have you received a Promo Code?
 create_acc_entercode_btn					Enter a Code
@@ -1220,8 +1219,8 @@ nickname_exists_response4					Benutzername existiert nicht
 
 // Tooltips for various create/etc. account forms - shared stuff mostly
 web_form_create_account_continue			Once the required information has been entered, click the button below to create your account.
-web_form_create_acct_title					Create a New Account
-web_form_purchase_acct_title				Purchase New Account
+web_form_create_acct_title					Neues Konto erstellen
+web_form_purchase_acct_title				Kaufe neues Konto
 web_form_friend_nickname					Friend Nickname
 web_form_friend_nickname_tip				This is the nickname of the friend whose account you wish to upgrade.
 web_form_promo_code							Promo Code
@@ -1267,8 +1266,8 @@ web_form_resetstats_warning					Be Aware: There will be another statistics reset
 web_form_resetstats_button					Reset Stats
 web_form_resetstats_about					About Resetting Stats
 web_form_resetstats_notice					Click the "Reset Stats" button to permanently reset the chosen stats.  Please note that this process is permanent, and not reversible.
-web_form_create_subaccount_title			Create Sub-Account
-web_form_purchase_account					Purchase Account
+web_form_create_subaccount_title			Unterkonto erstellen
+web_form_purchase_account					Konto kaufen
 web_form_upgrade_account_title				Upgrade Account
 web_form_create_subaccount_button			Create Sub-Account
 web_form_create_account_error				Account Creation Error
@@ -1503,10 +1502,10 @@ purchase_promo_basicfeatures5				Better Games - when you play official stats rec
 purchase_promo_descprice 					HoN is now free to play! You can only play 15 heroes at a time until you purchase heroes with silver coins earned in-game or with gold coins purchased online.
 purchase_promo_your_hero_here				(Your Hero Here)
 purchase_promo_have_account					Log in with a different account?
-purchase_promo_view_tos						View ToS
+purchase_promo_view_tos						ToS ansehen
 purchase_promo_dream_title					S2Games' Dream Program
 purchase_promo_dream_desc					Get your hero added to HoN! Visit ^yhttp://dream.heroesofnewerth.com^* for more information.
-purchase_promo_much_more					And MUCH more!
+purchase_promo_much_more					Und VIELES mehr!
 purchase_promo_avail_now					AVAILABLE NOW!
 purchase_promo_purchase_now_desc			Purchase now to be a part of Heroes of Newerth and help us continue to make it the best multiplayer team-based game ever created!
 purchase_promo_content_title				Consistent New Content Patches
@@ -1543,7 +1542,7 @@ announcement_defeat			Defeat
 
 // Progression interface
 progstats_mmr				^w{mmr}^* MMR
-progstats_victory			Victory
+progstats_victory			Sieg
 progstats_defeat			Defeat
 progstats_firstofday		First of the Day
 progstats_quickvictory		Quick Victory
@@ -4237,7 +4236,7 @@ mstore_product2572_desc     The URSA Corps is running low on ammo--quick, send i
 mstore_product2573_name     URSA Taunt
 mstore_product2573_desc     A roaring, exploding bear bomb is by far the best way to display your primal dominance on the battlefield!
 mstore_product2574_name     Kane
-mstore_product2575_name     Hero- Kane
+mstore_product2575_name     Held - Kane
 mstore_product2576_name     8-Bit Kane
 mstore_product2577_name     Hero Alt- 8-Bit Kane
 mstore_product2578_name     Katana
@@ -4474,10 +4473,10 @@ mstore_not_bundle_1 				Premium
 mstore_not_bundle_2 				Debut
 mstore_not_bundle_3 				Bundle
 mstore_not_available 				Debut Only
-mstore_special_debut 				Newest Hero
+mstore_special_debut 				Neuste Helden
 mstore_not_left_aa_1 				Debut Edition Avatar
 mstore_not_right_aa_1 				Premium Avatar
-mstore_not_selected_1 				Not
+mstore_not_selected_1 				Nicht
 mstore_not_selected_2				In Current
 mstore_not_selected_3				Selection
 mstore_not_purchase3 				Debut Bundle
@@ -4490,13 +4489,13 @@ mstore_featured_owned_body 			You already own one or more of the products in thi
 mstore_featured_error_header 		Featured Section Error
 mstore_featured_error_body 			There was an error setting up the featured section of the store. Please check back later.
 
-mstore_eap_bundle_cost				Price:
+mstore_eap_bundle_cost				Preis:
 
 mstore_eap_left_aa_1				EA Exclusive Alt Avatar
 mstore_eap_right_aa_1				Alt Avatar
 
 // Eligibility Items
-mstore_elig_only					Unlock Me!
+mstore_elig_only					Freischalten!
 mstore_elig							Unlockable Item
 mstore_elig_required 				Required Items: 
 mstore_elig_tip						This is an unlockable item, these are made available by participation in promotional events.
@@ -4768,11 +4767,11 @@ expired_tip							No longer available for purchase.
 
 mstore_match
 
-mstore_purchase_gold		Use Gold
-mstore_purchase_silver		Use Silver
-mstore_purchase_gift		Gift Item
+mstore_purchase_gold		Benutze Gold
+mstore_purchase_silver		Benutze Silber
+mstore_purchase_gift		Gegenstand schenken
 mstore_purchase_self		Self Only
-mstore_purchase_choosecurrency			Select Currency
+mstore_purchase_choosecurrency			Währung wählen
 mstore_purchase_choosecurrency_desc		This item can be purchased with either Gold or Silver Coins.  Please choose a currency type to complete your purchase.
 mstore_purchase_itemisfree			This item is available for free!  Click the Claim Item button below to receive this item.
 mstore_purchase_claimfree			Claim Free Item
@@ -4784,19 +4783,19 @@ mstore_premiumitem_tip		This item can be purchased at normal price with Gold Coi
 mstore_costbreakdown		Cost Breakdown
 mstore_costbreakdown_tip	These numbers are a breakdown of how much of each coin type you'll spend.  Silver Coins will always be spent before Gold Coins, unless you are purchasing a Premium item.  Gold and Silver Coins may not be combined on Premium items.
 
-mstore_buycoins			Buy Coins
+mstore_buycoins			Münzen kaufen
 mstore_buycoins_desc	Before you can purchase items from the store, you must first buy Goblin Coins.
 
-mstore_redeem_code					Redeem Code
+mstore_redeem_code					Code einlösen
 mstore_redeem_code_desc				If you have received a promotional code, enter it here to claim your free gift.
 
 mstore_buyavatar_needhero		Need to Purchase Hero
 mstore_buyavatar_needhero_desc		You must first purchase this avatar's hero before you can purchase this avatar.
-mstore_viewhero				View Hero
-mstore_buyhero				Buy Hero
+mstore_viewhero				Held ansehen
+mstore_buyhero				Held kaufen
 
-mstore_coins			Coins
-mstore_now				Now
+mstore_coins			Münzen
+mstore_now				Jetzt
 
 mstore_item_expiration		Item Expiration
 mstore_item_expiration_tip	This item will be usable for the specified duration.  Purchasing this duration again will reset the time, but will not extend it.  The item will expire after the duration ends.
@@ -4809,7 +4808,7 @@ mstore_needcoins		Need Coins
 mstore_needcoins_desc	More coins are needed in order to purchase this item.  Click here to open the Purchase Coins form.
 mstore_openvault		Öffne Versteck
 mstore_openvault_desc	Click here to open the vault.  The vault contains all of the items that you've purchased with Goblin Coins, and you can configure some of the items that you've purchased there.
-mstore_openstore		Open Store
+mstore_openstore		Laden öffnen
 mstore_openstore_desc	Click here to go back to the store so you can purchase additional items.
 
 mstore_bundle_yousave		Du sparst {costdifference}!
@@ -4819,33 +4818,33 @@ mstore_goldcount			Gold-Menge
 mstore_goldcount_desc		This is how many Goblin Coins you currently own.  Gold coins can be purchased, while Silver coins can be earned via Matchmaking games.  Click here or on the "Buy Coins" button to purchase more Gold Coins.
 mstore_cost					Item Cost
 mstore_cost_desc			This is how many Goblin Coins are required to purchase this item.  If this is a Premium item, the number displayed is how many Gold coins are required to purchase this item.
-mstore_purchase				Purchase
+mstore_purchase				Kaufen
 
-mstore_needunlockicons		Unlock
-mstore_needunlocktaunt		Unlock
+mstore_needunlockicons		Freischalten
+mstore_needunlocktaunt		Freischalten
 mstore_unlock_title			Unlock Account Icons
-mstore_unlock_taunt			Purchase Taunt
+mstore_unlock_taunt			Kaufe Taunt
 mstore_icon_slot_locked		Icon Slot Locked
-mstore_taunt_slot_locked	Taunt Not Purchased
+mstore_taunt_slot_locked	Taunt nicht gekauft
 mstore_unlock_taunt_body	You must first purchase Taunt before additional taunt styles can be purchased.
 mstore_unlock_body			You must purchase the Unlock Icon Slot before Account Icons can be purchased.
 mstore_unlock_pam_body		As a part of our Player Appreciation month all players have had their account icon slot unlocked for free! If you had previously purchased this item, you have been refunded 350 Silver Coins.
 mstore_unlock_taunt_confirm		Purchase Taunt and unlock additional taunt styles?
 mstore_unlock_confirm		Spend Goblin Coins to unlock Account Icons?
 mstore_unlock_icon_slot		Unlock Icon Slot
-mstore_unlock_taunt_slot		Purchase Taunt
+mstore_unlock_taunt_slot		Kaufe Taunt
 
 mstore_purchase_desc		Click here to spend Goblin Coins to purchase this item.
-mstore_purchased			Purchased
+mstore_purchased			Gekauft
 mstore_purchased_desc		You've already purchased this item.  Thank you for your patronage!  Now that you've purchased this item, you can view it in your vault.  ^yRight-click here to visit the vault.
 mstore_purchasedb_desc		You've already purchased this bundle.  Thank you for your patronage!
-mstore_preview_avatar		Preview 
-mstore_preview_avatar_desc	Click here to preview this Alternate Avatar.
-mstore_preview_avatar_default			View Default Avatar
+mstore_preview_avatar		Vorschau 
+mstore_preview_avatar_desc	Klicke hier um eine Vorschau des alternativen Avatar anzusehen.
+mstore_preview_avatar_default			Zeige Standart-Avatar
 mstore_preview_avatar_default_desc		Click here to view the default avatar for this hero.
 mstore_preview_bundle			View Bundle Contents
 mstore_preview_bundle_desc		Click here to view a list of items contained within this bundle.
-mstore_rotatemodel				Rotate Model
+mstore_rotatemodel				Model drehen
 mstore_rotatemodel_desc			Click and drag the slider to view the model from different angles.
 mstore_redeem161				Redeem Nickname Change
 mstore_redeem162				Redeem Subaccount
@@ -4853,29 +4852,29 @@ mstore_redeem163				Redeem Stat Reset
 mstore_redeem161_desc			Click here to redeem your Nickname Change purchase and enter in a new nickname.
 mstore_redeem162_desc			Click here to redeem your Subaccount purchase and create a new Subaccount.
 mstore_redeem163_desc			Click here to redeem your Stat Reset purchase and select which statistics you'd like to reset.
-mstore_prevpage					Previous Store Page
-mstore_prevpage_desc			Click here to view the previous page of items available for purchase
-mstore_vault_prevpage			Previous Vault Page
-mstore_vault_prevpage_desc		Click here to view the previous page of items stored in your vault.
-mstore_nextpage					Next Store Page
-mstore_nextpage_desc			Click here to view the next page of items available for purchase.
-mstore_vault_nextpage			Next Vault Page
-mstore_vault_nextpage_desc		Click here to view the next page of items stored in your vault.
+mstore_prevpage					Vorherige Laden-Seite
+mstore_prevpage_desc			Hier klicken um die vorherige Seite der Gegenstände im Laden anzuzeigen, die du kaufen kannst.
+mstore_vault_prevpage			Vorherige Versteck-Seite
+mstore_vault_prevpage_desc		Hier klicken um die vorherige Seite der Gegenstände in deinem Versteck anzuzeigen.
+mstore_nextpage					Nächste Laden-Seite
+mstore_nextpage_desc			Hier klicken um die nächste Seite der Gegenstände im Laden anzuzeigen, die du kaufen kannst.
+mstore_vault_nextpage			Nächste Versteck-Seite
+mstore_vault_nextpage_desc		Hier klicken um die nächste Seite der Gegenstände in deinem Versteck anzuzeigen.
 mstore_processing				Verarbeite
 mstore_processing_elipses		Verarbeite...
 mstore_processing_desc			Deine Anfrage wird zurzeit verarbeitet.
 mstore_retry					Neuversuch
-mstore_retry_desc				Click here in order to re-submit your request.
+mstore_retry_desc				Klicke hier um deine Anfrage erneut zu senden.
 mstore_shopkeepermodel				Shopkeeper Name
 mstore_shopkeepermodel_desc			This is shopkeeper.  He's a humble shopkeeper with all sorts of goodies to sell.
-mstore_entercode					Enter Code
-mstore_redeemcode_self				Redeem Promo Code
+mstore_entercode					Code eingeben
+mstore_redeemcode_self				Promo Code einlösen
 mstore_redeemcode_self_desc			If you have a promotional code, you can redeem it here to claim your reward.
-mstore_buycoins_self				Buying for Yourself
+mstore_buycoins_self				Für dich kaufen
 mstore_buycoins_self_desc			You've chosen to buy Gold Goblin Coins for yourself.  If you'd like, you can instead choose to buy coins for a friend.
-mstore_buycoins_other				Buying for a Friend
+mstore_buycoins_other				Für einen Freund kaufen
 mstore_buycoins_other_desc			You've chosen to buy Gold Goblin Coins for a friend.
-mstore_buygift_other				Gifting to a Friend
+mstore_buygift_other				Einem Freund schenken
 mstore_buygift_other_desc			You've chosen to gift this product to a friend.
 mstore_package_worst				Basic Coin Package
 mstore_package_worst_desc			This coin package provides the least amount of value, but also costs the least.
@@ -4893,9 +4892,9 @@ mstore_package_4					Superior Coin Package
 mstore_package_4_desc				This Coin Package provides a significant amount of extra coins.
 mstore_package_5					Best Coin Package
 mstore_package_5_desc				This Coin Package provides the most bang for the buck.
-mstore_buycoins_submit				Submit
-mstore_buycoins_submit_purchase		Submit Purchase
-mstore_buycoins_select_package		Select Package
+mstore_buycoins_submit				Übermitteln
+mstore_buycoins_submit_purchase		Kauf übermitteln
+mstore_buycoins_select_package		Packet auswählen
 mstore_buycoins_submit_desc			Click here to submit this form and purchase Gold Goblin Coins.
 mstore_choosetype2					Choose this Hero Avatar
 mstore_choosetype2_desc				Click here to set this as your default avatar for this hero.
@@ -4913,19 +4912,19 @@ mstore_choosetype56					Choose this Avatar
 mstore_choosetype56_desc			Click here to choose this Avatar.
 mstore_choosetype57					Choose this Courier
 mstore_choosetype57_desc			Click here to choose this avatar for your courier.
-mstore_choose						Choose
-mstore_buy							Buy
-mstore_redeem						Redeem
-mstore_coin							Coin
-mstore_bonuscoins					Bonus Coins!
+mstore_choose						Wähle
+mstore_buy							Kaufe
+mstore_redeem						Einlösen
+mstore_coin							Münzen
+mstore_bonuscoins					Bonus Münzen!
 mstore_bonus						Bonus!
 mstore_usd							USD
-mstore_specialoffer					Special Offer!
+mstore_specialoffer					Spezialangebot!
 mstore_myself						Myself
-mstore_afriend						A Friend
-mstore_purchasefor					Purchase For
-mstore_package_selected				Selected
-mstore_buycoins_form_title			Buy Coins
+mstore_afriend						Ein Freund
+mstore_purchasefor					Kaufe für
+mstore_package_selected				Ausgewählt
+mstore_buycoins_form_title			Kaufe Münzen
 mstore_buycoins_form_blurb			In order to purchase additional content for Heroes of Newerth, such as Alternate Avatars, Announcers, and Chat Icons, you must first purchase Goblin Coins, which then can be spent at the shop.
 mstore_buycoins_form_blurb_garena	In order to purchase additional content for Heroes of Newerth, such as Alternative Avatars, Announcers, and Chat Icons, you must first purchase Goblin Coins to be spent at the shop.  Use your Garena Shells below to buy one of the Goblin Coin packages.
 mstore_buycoins_form_blurb_ntreev	In order to purchase additional content for Heroes of Newerth, such as Alternative Avatars, Announcers, and Chat Icons, you must first purchase Goblin Coins to be spent at the shop.  Use your Treecash below to buy one of the Goblin Coin packages.
@@ -4933,15 +4932,15 @@ mstore_buycoins_form_blurb_axeso5	In order to purchase additional content for He
 mstore_includes						Includes Free
 mstore_bonus_val					{amount}% Bonus!
 
-mstore_bundle_promo_turkey 			Free Turkey Courier
-mstore_bundle_promo_mali			Free Mali Klaus
-mstore_bundle_promo_eggnog 			Free Egg Nog Master
-mstore_bundle_promo_jackfrost		Free Jackson Frost
-mstore_bundle_promo_turkeyLady		Free Hachina Dark Lady AND Turkey
-mstore_bundle_promo_darkLady		Free Hachina Dark Lady
-mstore_bundle_promo_snowman 		Free Snowman Glacius PLUS ALL 3 below!
-mstore_bundle_promo_timelord		Free Time Lord Chronos
-mstore_bundle_promo_rubyrampage		Free Rudy Rampage PLUS ALL 4 below!
+mstore_bundle_promo_turkey 			Gratis Turkey Courier
+mstore_bundle_promo_mali			Gratis Mali Klaus
+mstore_bundle_promo_eggnog 			Gratis Egg Nog Master
+mstore_bundle_promo_jackfrost		Gratis Jackson Frost
+mstore_bundle_promo_turkeyLady		Gratis Hachina Dark Lady AND Turkey
+mstore_bundle_promo_darkLady		Gratis Hachina Dark Lady
+mstore_bundle_promo_snowman 		Gratis Snowman Glacius PLUS ALL 3 below!
+mstore_bundle_promo_timelord		Gratis Time Lord Chronos
+mstore_bundle_promo_rubyrampage		Gratis Rudy Rampage PLUS ALL 4 below!
 
 
 mstore_reedeem_code_error_1			Code-Einlösung fehlgeschlagen!
@@ -4951,32 +4950,32 @@ mstore_reedeem_code_success_2		Du hast folgendes erhalten:
 mstore_reedeem_code_base_1			Gib deinen Code unten ein
 
 // _sea shows on the SEA client. _cis shows on the CIS client.
-mstore_buycoins_regcur_info_garena	Shells can be purchased at the Garena website - http://payment.garena.com 
-mstore_buycoins_regcur_info_garena_sea	Shells can be purchased at the Garena website - http://payment.garena.com 
-mstore_buycoins_regcur_info_garena_cis	Shells can be purchased at the Garena website - http://pay.sng.garena.com
-mstore_buycoins_regcur_info_garena_tr	Shells can be purchased at the Garena website - http://pay.tr.garena.com
+mstore_buycoins_regcur_info_garena		Shells können auf der Garena Webseite gekauft werden - http://payment.garena.com 
+mstore_buycoins_regcur_info_garena_sea	Shells können auf der Garena Webseite gekauft werden - http://payment.garena.com 
+mstore_buycoins_regcur_info_garena_cis	Shells können auf der Garena Webseite gekauft werden - http://pay.sng.garena.com
+mstore_buycoins_regcur_info_garena_tr	Shells können auf der Garena Webseite gekauft werden - http://pay.tr.garena.com
 
-mstore_buycoins_regcur_info_ntreev	Treecash can be purchased at the Ntreev website - ntreev.com
-mstore_buycoins_regcur_info_axeso5 	AxesoCash can be purchased at the Axeso5 website - axeso5.com
-mstore_resetstats_form_title		Reset Stats
+mstore_buycoins_regcur_info_ntreev	Treecash kann auf der Ntreev Website gekauft werden - ntreev.com
+mstore_buycoins_regcur_info_axeso5 	AxesoCash kann auf der Axeso5 Website gekauft werden - axeso5.com
+mstore_resetstats_form_title		Statistik zurücksetzen
 mstore_resetstats_form_body			Use this form to redeem a purchased stat reset.  Simply select the desired statistics and submit the form to reset your stats. \\n\\n ^rClearing Statistics for any mode also resets your total games played and disconnects for ALL modes.
-mstore_nickchange_form_title		Change Nickname
+mstore_nickchange_form_title		Benutzername ändern
 mstore_buy_subaccount_form_title	Buy Subaccount
-mstore_cancel						Cancel
-mstore_error_unknown				Unknown Error
-mstore_coinamount					{coins} Coins
+mstore_cancel						Abbrechen
+mstore_error_unknown				Unbekannter Fehler
+mstore_coinamount					{coins} Münzen
 mstore_region_purchase_denied		Purchasing coins is currently disabled in your region.
 
-mstore_error_connect				Connection Error.  Please try again.
-mstore_buyitem_confirm				Confirm Purchase
-mstore_buygift_confirm				Confirm Purchase - Give Gift?
-mstore_buyitem_confirm_body			Are you sure that you want to purchase this item?
-mstore_buygift_confirm_body			Which player should we send your bonus gift to?
+mstore_error_connect				Verbindungsfehler. Bitte versuche es erneut.
+mstore_buyitem_confirm				Kauf bestätigen
+mstore_buygift_confirm				Kauf bestätigen - Geschenk machen?
+mstore_buyitem_confirm_body			Bist du sicher, dass du diesen Gegenstand kaufen möchtest?
+mstore_buygift_confirm_body			An welchen Spieler sollen wird dein Bonus-Geschenk senden?
 mstore_buygift_confirm_desc			When you purchase this item, you are additionally able send it to a friend - for free! You can redeem this offer ^r{value}^* more times. 
-mstore_buygift_confirm_exp			This offer expires on the 21st of May.
-mstore_buygift_enter_player			Enter Player Name
+mstore_buygift_confirm_exp			Dieses Angebot endet am 21. Mai.
+mstore_buygift_enter_player			Spielername eingeben
 
-mstore_buycoin_success				Coin Purchase Successful
+mstore_buycoin_success				Münzkauf erfolgreich
 mstore_buycoin_success_body			The purchased coins have been added to your account and can be used immediately to purchase new content.
 mstore_buycoin_success_account_body	The purchased coins have been added to your account and can be used immediately to purchase new content.  In addition, your account purchase is available for redemption immediately.  Please write down the code below so that it can be redeemed for a free Heroes of Newerth account prior to logging in at the main menu or on our website.
 mstore_buycoin_success_upgrade_body	The purchased coins have been added to your account and can be used immediately to purchase new content.  In addition, this purchase has automatically upgraded your account.  The full effect of the change will not occur until you log out and back in.
@@ -4996,29 +4995,29 @@ mstore_firstvisit2					Exchange now for Goblin Coins.
 mstore_firstvisit2_body				Exchange your money for Gold Goblin Coins now and be sure to check back often for new items and sales.
 mstore_firstvisit3					Item and Coin Types
 mstore_firstvisit3_body				There are two types of coins - Gold and Silver.  Both coin types can be used to purchase most items in the store.  Gold coins can be purchased, while Silver coins are earned in Matchmaking games.\n\nItems can only be purchased with one or the other coin type, and are less expensive to buy with Gold coins than with Silver.
-mstore_error_generic				An error has occurred.
-mstore_nickchange_submit			Change Nickname
+mstore_error_generic				Es ist ein Fehler aufgetreten.
+mstore_nickchange_submit			Benutzername ändern
 mstore_enter_hero_or_avatar			Enter Hero or Avatar Name...
-mstore_enter_hero					Enter Hero Name...
+mstore_enter_hero					Heldenname eingeben...
 
 mstore_buyhero_altBundle_title		Bundle These Alternate Avatars and Save
 mstore_buyhero_altBundle_costSep	Cost Purchased Separately
 mstore_buyhero_altBundle_cost_Bun	Bundled Purchase Cost
 mstore_buyhero_altBundle_checkbox	Purchase Hero With Bundled Alternate Avatars
 
-mstore_icon_await_upload			Awaiting Upload
-mstore_item_selected				Selected
+mstore_icon_await_upload			Warte auf Upload
+mstore_item_selected				Ausgewählt
 
-mstore_chatlist				Chat List
-mstore_gamelobby			Game Lobby
+mstore_chatlist				Chat Liste
+mstore_gamelobby			Spiel-Lobby
 mstore_soundsandtext		Sounds and Arcade Text
 mstore_customizeeachmatch	Customize Each Match
 mstore_forums	Forums
 mstore_replacedefsymbol		Replace Default Symbol
 
-mstore_redeemcoins			Redeem Coins
+mstore_redeemcoins			Münzen einlösen
 
-mstore_sectionhelp			What Are These?
+mstore_sectionhelp			Was ist das?
 mstore_error0		Unable to complete request.
 mstore_error1		Invalid store request.
 mstore_error2		Invalid user information was supplied.
@@ -5285,7 +5284,7 @@ create_acc_state_alabama					Alabama
 create_acc_state_alaska						Alaska
 create_acc_state_arizona					Arizona
 create_acc_state_arkansas					Arkansas
-create_acc_state_california					California
+create_acc_state_california					Kalifornien
 create_acc_state_colorado					Colorado
 create_acc_state_connecticut				Connecticut
 create_acc_state_delaware					Delaware
@@ -5334,15 +5333,15 @@ create_acc_state_wisconsin					Wisconsin
 create_acc_state_wyoming					Wyoming
 
 // countries
-create_acc_country_united_states	United States
-create_acc_country_algeria			Algeria
+create_acc_country_united_states	Vereinigte Staaten
+create_acc_country_algeria			Algerien
 create_acc_country_american_samoa	American Samoa
 create_acc_country_andorra			Andorra
 create_acc_country_angola			Angola
 create_acc_country_anguilla			Anguilla
 create_acc_country_antarctica		Antarctica
 create_acc_country_antigua_barbuda	Antigua and Barbuda
-create_acc_country_argentina		Argentina
+create_acc_country_argentina		Argentinien
 create_acc_country_aruba			Aruba
 create_acc_country_australia		Australien
 create_acc_country_austria			Österreich
@@ -5358,13 +5357,13 @@ create_acc_country_bhutan			Bhutan
 create_acc_country_bolivia			Bolivia
 create_acc_country_bosnia			Bosnia and Herzegovina
 create_acc_country_bouvet_island	Bouvet Island
-create_acc_country_brazil			Brazil
+create_acc_country_brazil			Brasilien
 create_acc_country_brit_ocean		British Indian Ocean Territory
 create_acc_country_brunei			Brunei Darussalam
 create_acc_country_burkina			Burkina Faso
 create_acc_country_burundi			Burundi
 create_acc_country_cameroon			Cameroon
-create_acc_country_canada			Canada
+create_acc_country_canada			Kanada
 create_acc_country_cape_verde		Cape Verde
 create_acc_country_cayman			Cayman Islands
 create_acc_country_african_rep		Central African Republic
@@ -5376,7 +5375,7 @@ create_acc_country_christmas		Christmas Island
 create_acc_country_cocos			Cocos (Keeling Islands)
 create_acc_country_colombia			Colombia
 create_acc_country_comoros			Comoros
-create_acc_country_congo			Congo
+create_acc_country_congo			Kongo
 create_acc_country_cook				Cook Islands
 create_acc_country_costarica		Costa Rica
 create_acc_country_cote				Cote D'Ivoire (Ivory Coast)
@@ -5393,7 +5392,7 @@ create_acc_country_egypt			Ägypten
 create_acc_country_elsalvador		El Salvador
 create_acc_country_equatorial_g		Equatorial Guinea
 create_acc_country_eritrea			Eritrea
-create_acc_country_estonia			Estonia
+create_acc_country_estonia			Estland
 create_acc_country_ethiopia			Ethiopia
 create_acc_country_falkland_island	Falkland Islands (Malvinas)
 create_acc_country_faroe			Faroe Islands
@@ -5422,7 +5421,7 @@ create_acc_country_haiti			Haiti
 create_acc_country_heard_mcdonald	Heard and McDonald Islands
 create_acc_country_honduras			Honduras
 create_acc_country_hungary			Ungarn
-create_acc_country_iceland			Iceland
+create_acc_country_iceland			Island
 create_acc_country_india			Indien
 create_acc_country_indonesia		Indonesien
 create_acc_country_ireland			Irland
@@ -5461,7 +5460,7 @@ create_acc_country_myanmar			Myanmar
 create_acc_country_namibia			Namibia
 create_acc_country_nauru			Nauru
 create_acc_country_nepal			Nepal
-create_acc_country_netherlands		Netherlands
+create_acc_country_netherlands		Niederlande
 create_acc_country_netherlands_ant	Netherlands Antilles
 create_acc_country_new_caledonia	New Caledonia
 create_acc_country_new_zealand		New Zealand
@@ -5538,11 +5537,11 @@ create_acc_country_other			Andere
 
 // credit_card.package
 creditcard_label_correct_error				Correct This Error
-creditcard_button_close_window				Close Window
+creditcard_button_close_window				Fenster schliessen
 creditcard_label_promocode					Promo Code
-creditcard_label_first_name					First Name
+creditcard_label_first_name					Vorname
 credit_card_first_name_tip					Enter the first name as it appears on the credit card.
-creditcard_label_last_name					Last Name
+creditcard_label_last_name					Nachname
 credit_card_last_name_tip					Enter the last name as it appears on the credit card.
 creditcard_label_billing_zip				Billing Zip Code
 credit_card_billing_zip_tip					Enter the zip code associated with the credit card billing address.
@@ -5579,8 +5578,8 @@ credit_card_error_duplicate_transaction		A duplicate transaction has been submit
 credit_card_error_expiration_date			The credit card expiration date is invalid.
 credit_card_error_declined					This transaction has been declined.
 credit_card_result_charge					Today's Charge: ^w${charge}
-credit_card_result_first_name				First Name: ^w{name}
-credit_card_result_last_name				Last Name: ^w{name}
+credit_card_result_first_name				Vorname: ^w{name}
+credit_card_result_last_name				Nachname: ^w{name}
 credit_card_result_transaction_number		Transaction #: ^w{id}
 credit_card_result_subscription_number		Subscription #: ^w{id}
 credit_card_result_next_bill_date			Next Billing Date: ^w{date}
@@ -5694,38 +5693,38 @@ game_shop_key_showhide						Zeige/Verstecke Gegenstand-Details
 game_shop_key_buyitem						Gegenstand kaufen
 game_shop_key_purchaserecipe				Nur Rezept kaufen
 game_shop_key_useitem						Item benutzen (wenn aktivierbar)
-game_shop_key_grab							Grab Item
+game_shop_key_grab							Gegenstand nehmen
 game_shop_key_viewrecipe					Rezept im Laden ansehen
 game_shop_key_swapitem						Swap Inventory/Stash
 game_shop_key_sellitem						Gegenstand verkaufen
-game_shop_key_dissassemble					Disassemble Item
+game_shop_key_dissassemble					Gegenstand auseinander nehmen
 game_shop_key_qs							Quickslot Tastaturkürzel
 game_shop_key_qs1							Shop item to quickslot
 game_shop_key_qs2							Inventory item to quickslot
 
-game_shop_trans								Shop Transparency
+game_shop_trans								Laden Transparenz
 game_shop_trans_tip							Drag the slider to the left to lower transparency, to the right to increase transparency.
 
-game_guide_reco_1							Starting Items
+game_guide_reco_1							Starter-Gegenstände
 game_guide_reco_1_tip						Items you should purchase immediately using your starting gold.
-game_guide_reco_2							Laning Items
+game_guide_reco_2							Laning Gegenstände
 game_guide_reco_2_tip						Items you should work towards acquiring in the laning phase, which typically lasts up to the 10-15 minute mark.
-game_guide_reco_3							Core Items
+game_guide_reco_3							Haupt-Gegenstände
 game_guide_reco_3_tip						Items that are highly recommended in order to obtain the most out of your hero.
-game_guide_reco_4							Luxury Items
+game_guide_reco_4							Luxus-Gegenstände
 game_guide_reco_4_tip						Optional items that will significantly boost your power should you be able to afford them.
-game_guide_popularity						Popularity
-game_guide_vote_up							Vote Up
-game_guide_vote_down						Vote Down
-game_guide_auto_level						Auto-Level Abilities
+game_guide_popularity						Beliebtheit
+game_guide_vote_up							aufwerten
+game_guide_vote_down						abwerten
+game_guide_auto_level						Auto-Level Fähigkeiten
 game_guide_auto_level_tip					Enabling this option will cause you to automatically train your abilities according to this guide.
 game_guide_label_intro						Einführung
 game_guide_label_premium					Vorgestellt
-game_guide_label_detailed					Detailed Description
-game_guide_label_getFeatured				Use Featured Guide
-process_guides_error						Guide Error
-invalid_cookie								Invalid Cookie
-guides_fail									Guide Retrieval Error
+game_guide_label_detailed					Detaillierte Beschreibung
+game_guide_label_getFeatured				Benutze vorgestellten Führer
+process_guides_error						Führer-Fehller
+invalid_cookie								Ungültiges Cookie
+guides_fail									Fehler beim wiederauffinden des Führers
 guides_not_found 							Kein Führer gefunden
 no_guides_found 							Kein Führer gefunden
 
@@ -5751,8 +5750,8 @@ game_label_clock_day						Tag
 game_label_clock_night_2					{time} bis zum Morgengrauen.
 game_label_clock_day_2						{time} bis zur Dämmerung.
 
-game_invulnerable							Invulnerable
-game_disconnect								Disconnect
+game_invulnerable							Unverwundbar
+game_disconnect								Trennen
 
 game_alt_couriers							Alternate Courier Selection
 game_alt_couriers_current					Current Courier Selection
@@ -5807,10 +5806,10 @@ courier_controller_desc 					The courier is currently being controlled by, or ex
 
 courier_uncontrollable 						This courier cannot be controlled by you because the player whom owns it has not shared it with you.
 
-player_tip_permadead						You are dead and cannot respawn.
-team_tip_permadead							This player is dead and cannot respawn.
+player_tip_permadead						Du bist tot und kannst nicht erscheinen.
+team_tip_permadead							Dieser Spieler ist tot und kann nicht erscheinen.
 
-game_krosmode_base_health					{health} Pts
+game_krosmode_base_health					{health} Pkt
 
 // game_chat.package
 gamechat_button_send_message				Nachricht senden
@@ -5831,43 +5830,43 @@ game_name									UnnamedNewbie Game
 
 // main_local_browser.package
 local_header_local_game						Lokales Spiel
-local_header_join_local_game				Join a Local Game
+local_header_join_local_game				Lokalem Spiel beitreten
 local_label_your_name						Dein Name
-local_button_refresh_list					Refresh List
-local_button_connect_ip						Connect to IP
-local_button_join_selected					Join Selected Game
-local_create_game_header					Create a Local Game
-local_select_server_header					Select a Server
-local_select_server_button					Select Server
-main_local_browser_filter_header			Filter Game List
+local_button_refresh_list					Liste erneuern
+local_button_connect_ip						Mit IP verbinden
+local_button_join_selected					Ausgewähltem Spiel beitreten
+local_create_game_header					Erstllen ein lokales Spiel
+local_select_server_header					Wähle ein Server
+local_select_server_button					Wähle Server
+main_local_browser_filter_header			Spieleliste filtern
 main_local_browser_filter_desc				Enter a game name, or part of a game name to filter the results.
-local_need_password_header					Password Required
-main_local_browser_password_tip				This game requires a password to join. Enter the password provided by the game creator.
+local_need_password_header					Passwort benötigt
+main_local_browser_password_tip				Dieses Spiel benötigt ein Passwort. Gib das Passwort vom Spielersteller ein.
 local_server_header							Server
 main_local_browser_ip						IP
 main_local_browser_ip_tip					Enter an Internet Protocol (IP) address to connect to a remote game.
 main_local_browser_connect_to_ip			Connect to an IP
-main_local_broswer_password					Password
-main_local_browser_password_tip				Enter the password for this game.
+main_local_broswer_password					Passwort
+main_local_browser_password_tip				Gib das Passwort für dieses Spiel ein.
 main_local_browser_starting					Remote game starting...
-main_local_browser_header					Game Browser - ^r{players}^* Players on ^r{servers}^* Servers
+main_local_browser_header					Spiel Browser - ^r{players}^* Spieler auf ^r{servers}^* Server
 
 // main_popup.interface
 popup_header								Nachricht
 
 // cc_community.package
-cc_com_header_your_friends_list				Your Friends List
+cc_com_header_your_friends_list				Deine Freundesliste
 cc_com_header_add_friends					Add New Friends
 cc_com_label_enter_nickname					Add as Friend:
-cc_com_button_add							Add
+cc_com_button_add							Hinz
 
 cc_com_button_find_in_game					Find In Current Game
-cc_com_aside_header_in_current_game			In Current Game
-cc_com_aside_current_button_add				Add
+cc_com_aside_header_in_current_game			Im laufenden Spiel
+cc_com_aside_current_button_add				Hinz
 
 cc_com_button_recently_with					Recently Played With
 cc_com_aside_header_recently_with			Recently Played With
-cc_com_aside_recent_button_add				Add
+cc_com_aside_recent_button_add				Hinz
 
 cc_com_header_clan_management				Clan Management
 cc_com_create_button						Erstelle neuen Clan
@@ -5887,7 +5886,7 @@ cc_com_button_findoptions_invite			Invite
 cc_com_button_findoptions_current			Find In Current Game
 cc_com_button_findoptions_recent			Recently Played With
 
-cc_com_newclan_button						Create Clan
+cc_com_newclan_button						Clan erstellen
 cc_com_newclan_header						Create a New Clan
 cc_com_newclan_tip_header					Create Clan Tip
 cc_com_newclan_invite_button				Einladung senden
@@ -5907,7 +5906,7 @@ cc_com_newclan_success						Clan has been created success message
 cc_com_newclan_failure						Clan has been created failure message
 cc_com_newclan_finished_button				Close Window
 
-ccpanel_header_options						Options
+ccpanel_header_options						Optionen
 ccpanel_button_config_cc					Configure C&C Panel
 ccpanel_label_panel_explanation				The C&C Panel notifies you when your friends and clan members perform an action. Select which notifications you would like to view.
 ccpanel_checkbox_connection_note			Connection Notices
@@ -6047,7 +6046,7 @@ endstats_label_hero_info_damage				Schaden
 endstats_label_hero_info_speed				Geschwindigkeit
 endstats_label_hero_info_atk_spd			Angriffsgeschwindigkeit
 endstats_label_hero_info_int				Intelligenz
-enstasts_label_hero_info_agi				Beweglichkeit
+enstasts_label_hero_info_agi				Ge­wandt­heit
 endstats_label_hero_info_str				Stärke
 endstats_label_hero_info_armor				Rüstung
 endstats_label_hero_info_inventory			Inventar
@@ -6354,7 +6353,7 @@ ccstats_button_hide_ccchat					Chat verstecken
 
 // game_hero_select.interface
 hselect_label_hd_strength					Stärke:
-hselect_label_hd_agility					Beweglichkeit:
+hselect_label_hd_agility					Ge­wandt­heit:
 hselect_label_hd_intel						Intelligenz:
 hselect_button_ready						Breit
 game_hero_select_ready_tip_me_ready			Du bist bereit für den Kampf!
@@ -7310,7 +7309,7 @@ tooltip_agility_per_level					Agility per Level:
 tooltip_intelligence_per_level				Intelligence per Level: 
 tooltip_strength							Stärke: 
 tooltip_strenght_msg						Each point of strength increases the hero's maximum health and health regeneration rate.
-tooltip_agility								Beweglichkeit: 
+tooltip_agility								Ge­wandt­heit: 
 tooltip_agility_msg							Each point of agility increases the hero's armor and attack speed.
 tooltip_intelligence						Intelligenz: 
 tooltip_intelligence_msg					Each point of intelligence increases the hero's maximum mana and mana regeneration rate.
@@ -7704,12 +7703,12 @@ mm3_ingame 						Im-Spiel
 mm3_ready 						Bereit
 mm3_notready 					Nicht bereit
 
-mm3_kickbots 					Kick All Bots
+mm3_kickbots 					Alle Bots feuern
 mm3_kickbots_desc				Clicking this will kick all bots on your team and instead find other human players to fill your team via matchmaking.
 
 mm3_bot_difficulty 				Bot Stärke
-mm3_random_enemy_bots_desc		You have chosen not to have a bot selection, instead random bots will be chosen for you.
-mm3_bot_custom 					Custom Bots
+mm3_random_enemy_bots_desc		Du hast keine benutzerdefinierte Bots ausgewählt, daher werden zufällige für dich gewählt.
+mm3_bot_custom 					Benutzerdefinierte Bots
 mm3_bot_random 					Zufällige Bots
 mm3_random_bot 					Zufälliger Bot
 mm3_random_desc 				Automatically select a random bot out of the currently available bots!
@@ -7726,16 +7725,16 @@ disconnect_mm_start_timeout		One or more players failed to connect to the server
 mm_title						Spiele ein Spiel
 mm_verified						1. Wähle Gegner
 mm_maps							2. Wähle deine Karte
-mm_modes						3. Select Game Modes
+mm_modes						3. Wähle den Spielmodus
 mm_region						4. Wähle die Region
-mm_start						5. Select Matchmaking Mode
+mm_start						5. Wähle den Matchmaking-Modus
 mm_gated						6. Game Type
 mm_verified_2					{value}. Wähle Gegner
-mm_maps_2						{value}. Choose Your Map
-mm_modes_2						{value}. Select Game Modes
-mm_region_2						{value}. Select Regions
-mm_start_2						{value}. Select Matchmaking Mode
-mm_gated_2						{value}. Core Pool Mode - Select Your Map
+mm_maps_2						{value}. Wähle deine Karte
+mm_modes_2						{value}. Wähle den Spielmodus
+mm_region_2						{value}. Wähle die Region
+mm_start_2						{value}. Wähle den Matchmaking-Modus
+mm_gated_2						{value}. Core Pool Mode - Wähle deine Karte
 mm_gated_desc_1					The Express option makes playing Matchmaking quick and easy. It comes with the 40 hero Core Pool automatically on. Simply choose the map and the regions you would like to play in and start playing HoN now!
 mm_gated_caldavar_1				Casual Mode Gameplay
 mm_gated_caldavar_2				All Pick Mode

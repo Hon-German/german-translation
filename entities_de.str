@@ -41,7 +41,7 @@ ImmunityType_RingSorceryImmunity								Immun gegen RingSorcery
 ImmunityType_EnergizerImmunity									Immun gegen Energizer
 ImmunityType_TransfigureImmunity								
 ImmunityType_GadgetImmunity										Immun gegen Apparaturen
-ImmunityType_CourierImmunity									Immun gegen Courier
+ImmunityType_CourierImmunity									Immun gegen Kurier
 ImmunityType_AttackImmunity										
 ImmunityType_IndirectImmunity									Immun gegen Indirect
 ImmunityType_AncientImmunity2									
@@ -206,9 +206,9 @@ Popup_timer														{value}
 Popup_timer_hero												{value}
 Popup_LodestoneUlt												{value}
 Popup_morult													{value}
-Popup_EmeraldWarden1											Gawain uses Diving Strike!
-Popup_EmeraldWarden2											Gawain uses Forest's Touch!
-Popup_EmeraldWarden3											Gawain uses Emerald Storm!
+Popup_EmeraldWarden1											Gawain benutzt Diving Strike!
+Popup_EmeraldWarden2											Gawain benutzt Forest's Touch!
+Popup_EmeraldWarden3											Gawain benutzt Emerald Storm!
 Popup_Ra														{value}!
 Popup_ra_rebirth												Rebirth!
 Popup_ra_timer													{value}
@@ -234,27 +234,27 @@ Mode_KrosMode													Shuffle Pick
 Option_None														Kein
 Option_ForceRandom												Force Random
 Option_AlternateSelection										Alternate Selection
-Option_NoRepick													No Repick
-Option_NoSwap													No Swap
-Option_NoAgility												No Agility
-Option_NoIntelligence											No Intelligence
-Option_NoStrength												No Strength
-Option_AllHeroes												All Heroes
+Option_NoRepick													Kein Repick
+Option_NoSwap													Kein Swap
+Option_NoAgility												Keine Ge­wandt­heit
+Option_NoIntelligence											Keine Intelligenz
+Option_NoStrength												Keine Stärke
+Option_AllHeroes												Alle Helden
 Option_NoRespawnTimer											No Respawn Timer
 Option_DropItems												Drop Items
 Option_NoPowerups												No Powerups
 Option_SuperCreeps												Super Creeps
-Option_EasyMode													Easy Mode
-Option_DuplicateHeroes											Duplicate Heroes
+Option_EasyMode													Einfacher Modus
+Option_DuplicateHeroes											Doppelte Helden
 Option_ReverseSelection											Reverse Selection
-Option_NoTopLane												Close Top Lane
-Option_NoMiddleLane												Close Middle Lane
-Option_NoBottomLane												Close Bottom Lane
-Option_AllowVeto												Allow Veto
+Option_NoTopLane												Schliesse obere Linie
+Option_NoMiddleLane												Schliesse mittlere Linie
+Option_NoBottomLane												Schliesse untere Linie
+Option_AllowVeto												Erlaube Einsprüche
 Option_ShuffleTeams												Shuffle Teams
 Option_AutoBalanceTeams											Auto Balanced
-Option_DevHeroes												Dev Heroes
-Option_TournamentRules											Tournament Rules
+Option_DevHeroes												Dev Helden
+Option_TournamentRules											Turnierregeln
 Option_Hardcore													Hardcore
 Option_Casual													Casual Mode
 Option_Gated													Core Pool
@@ -361,8 +361,8 @@ Ability_AttributeBoost_description								^yPer Level Bonuses:^*\n+2 Strength\n+
 Ability_AttributeBoost_description_simple						Grants an increase to your hero's attributes.\n\n^gPer Level Bonuses:^*\n+2 Strength\n+2 Agility\n+2 Intelligence
 
 // State_Teleport_GrimmCrossroads
-State_Teleport_GrimmCrossroads_name								Teleporter Delay
-State_Teleport_GrimmCrossroads_description						You recently used the teleporters and cannot again for a short time.
+State_Teleport_GrimmCrossroads_name								Teleport-Verzögerung
+State_Teleport_GrimmCrossroads_description						Du hast kürzlich die Teleporter benutzt und musst nun eine kurze Zeit warten.
 
 // Ability_Taunt
 Ability_Taunt_name												Taunt
@@ -4362,7 +4362,7 @@ Ability_Hantumon2_tooltip_flavor								Psst! Right behind you.
 
 // Ability_Hantumon3
 Ability_Hantumon3_name											Backstab
-Ability_Hantumon3_description									Der Night Hound ist ein Meister im Ausbeuten von Chancen im Kampf. Wenn er ein Ziel von hinten angreift, verursacht er einen zusätzlichen Schaden in Höhe seiner Beweglichkeit. 
+Ability_Hantumon3_description									Der Night Hound ist ein Meister im Ausbeuten von Chancen im Kampf. Wenn er ein Ziel von hinten angreift, verursacht er einen zusätzlichen Schaden in Höhe seiner Ge­wandt­heit. 
 Ability_Hantumon3_description_simple							Passively adds ^o{30,60,90,120}% of Agility^* to your attack as damage when attacking from behind.
 Ability_Hantumon3_effect_header									Status Effekt(e)
 Ability_Hantumon3_ATTACK_effect									When behind target, adds {30,60,90,120}% of his agility as bonus Attack Damage.

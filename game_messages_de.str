@@ -3,7 +3,7 @@ kill0								{killer_color}{killer}^* pwned {victim_color}{victim}^*'s Kopf! fü
 kill2								{killer_color}{killer}^* pwned {victim_color}{victim}^*'s Kopf! für ^y{gold}^* gold!! Unterstützungen: {assist0_color}{assist0}^*, {assist1_color}{assist1}
 kill3								{killer_color}{killer}^* pwned {victim_color}{victim}^*'s Kopf! für ^y{gold}^* gold!! Unterstützungen: {assist0_color}{assist0}^*, {assist1_color}{assist1}^*, {assist2_color}{assist2}
 kill4								{killer_color}{killer}^* pwned {victim_color}{victim}^*'s Kopf! für ^y{gold}^* gold!! Unterstützungen: {assist0_color}{assist0}^*, {assist1_color}{assist1}^*, {assist2_color}{assist2}^*, {assist3_color}{assist3}
-first_kill							{killer_color}{killer}^* hat ^rbloodlust^*! (^y+{gold}^* Gold!)
+first_kill							{killer_color}{killer}^* hat ^rMordlust^*! (^y+{gold}^* Gold!)
 first_kill_team						{killer_color}{killer}^* hat ^rBlutdurst^*! (^y+{gold}^* Gold verteilt!)
 killstreak0							{killer_color}{killer}^* ist ein ^082Serienkiller^*!
 killstreak1							{killer_color}{killer}^* ist ein ^204unltimativer Krieger^*!
@@ -15,47 +15,47 @@ killstreak6							{killer_color}{killer}^* ist ein ^800CHAMPION VON NEWERTH^*!!!
 killstreak7							{killer_color}{killer}^* ist auf einem ^840BLUTRAUSCH^*! Jemand muss ihn STOPPEN!
 killstreak8							{killer_color}{killer}^* ist ^860UNSTERBLICH^*!!
 
-streakend0							{killer} hat {victim}'s ^082Serienkiller^* Serie beendet. ^y{gold}^* Gold erhalten!!
-streakend1							{killer} hat {victim}'s ^204unltimativer Krieger^* Serie beendet. ^y{gold}^* Gold erhalten!!
-streakend2							{killer} hat {victim}'s ^808legendär^* Serie beendet. ^y{gold}^* Gold erhalten!!
-streakend3							{killer} hat {victim}'s ^840Ansturm^* Serie beendet. ^y{gold}^*Gold erhalten!!
-streakend4							{killer} hat {victim}'s ^440kriegsmüde^* Serie beendet. ^y{gold}^* Gold erhalten!!
-streakend5							{killer} hat {victim}'s ^848dominierend^* Serie beendet. ^y{gold}^* Gold erhalten!!
-streakend6							{killer} hat {victim}'s ^800CHAMPION VON NEWERTH^* Serie beendet. ^y{gold}^* Gold erhalten!!
-streakend7							{killer} hat {victim}'s ^840BLUTRAUSCH^* Serie beendet. ^y{gold}^* Gold erhalten!!
-streakend8							{killer} hat {victim}'s ^860UNSTERBLICH^* Serie beendet. ^y{gold}^* Gold erhalten!!
+streakend0							{killer} hat {victim}'s ^082Serienkiller^*-Serie beendet. ^y{gold}^* Gold erhalten!!
+streakend1							{killer} hat {victim}'s ^204unltimativer Krieger^*-Serie beendet. ^y{gold}^* Gold erhalten!!
+streakend2							{killer} hat {victim}'s ^808legendär^*-Serie beendet. ^y{gold}^* Gold erhalten!!
+streakend3							{killer} hat {victim}'s ^840Ansturm^*-Serie beendet. ^y{gold}^*Gold erhalten!!
+streakend4							{killer} hat {victim}'s ^440kriegsmüde^*-Serie beendet. ^y{gold}^* Gold erhalten!!
+streakend5							{killer} hat {victim}'s ^848dominierend^*-Serie beendet. ^y{gold}^* Gold erhalten!!
+streakend6							{killer} hat {victim}'s ^800CHAMPION VON NEWERTH^*-Serie beendet. ^y{gold}^* Gold erhalten!!
+streakend7							{killer} hat {victim}'s ^840BLUTRAUSCH^*-Serie beendet. ^y{gold}^* Gold erhalten!!
+streakend8							{killer} hat {victim}'s ^860UNSTERBLICH^*-Serie beendet. ^y{gold}^* Gold erhalten!!
 
-multikill0							{killer} hat einen ^008Double Tap^*!
+multikill0							{killer} hat einen ^008Dublette^*!
 multikill1							{killer} hat einen ^084Hattrick^*!!!
 multikill2							{killer} hat einen ^084Quad Kill^*!!!
 multikill3							{killer} hat seine Gegner ^084VERNICHTET^*!!!
 
-killtower							{killer} hat ein Turm zerstört. {reward} are awarded ^y{gold}^* Bonus-Gold!
+killtower							{killer} hat ein Turm zerstört. {reward} und ^y{gold}^* Bonus-Gold erhalten!
 denytower							{player} hat ein Turm ^444verteidigt^*!
-killmeleerax						{victim}'s ^724Nahkampf^* Barracken wurden zerstört, the {killer} ^724melee^* units in that lane will now spawn stronger.
-killrangedrax						The {victim}'s ^266Ranged^* Barracks has been destroyed, the {killer} ^266ranged^* units in that lane will now spawn stronger.
+killmeleerax						{victim}'s ^724Nahkampf^* Barracken wurden zerstört, die ^724Nahkampf^*-Einheiten von {killer} in dieser Linie werden nun stärker erscheinen.
+killrangedrax						{victim}'s ^724Fernkampf^* Barracken wurden zerstört, die ^724Fernkampf^*-Einheiten von {killer} in dieser Linie werden nun stärker erscheinen.
 killcourier							{victim}'s Kurier wurde durch {killer} getötet!
 boughtwalkingcourier				{player_color}{player}^* hat einen laufenden Kurier gekauft.
 boughtflyingcourier					{player_color}{player}^* hat einen fliegenden Kurier gekauft.
 ping_target							{player_color}{player_name} ({player_hero_name})^*: {mode}{unit_team_color}{unit_name}^* jetzt!
 
-ping_ext_building_attack			{player_color}{player_name} ({player_hero_name})^*: Attack the {unit_team_color}{unit_name}^* at {ping_tile}!
-ping_ext_building_defend			{player_color}{player_name} ({player_hero_name})^*: Defend our {unit_team_color}{unit_name}^* at {ping_tile}!
-ping_ext_hero_attack				{player_color}{player_name} ({player_hero_name})^*: Attack {unit_team_color}{unit_name}^* at {ping_tile}!
-ping_ext_hero_get_back				{player_color}{player_name} ({player_hero_name})^*: Get back from {unit_team_color}{unit_name}^* at {ping_tile}!
-ping_ext_hero_missing				{player_color}{player_name} ({player_hero_name})^*: {unit_team_color}{unit_name}^* is missing from lane and is at {ping_tile}!
-ping_ext_hero_missing_going_top		{player_color}{player_name} ({player_hero_name})^*: {unit_team_color}{unit_name}^* is missing from lane and is at {ping_tile}. Heading top!
-ping_ext_hero_missing_going_mid		{player_color}{player_name} ({player_hero_name})^*: {unit_team_color}{unit_name}^* is missing from lane and is at {ping_tile}. Heading middle!
-ping_ext_hero_missing_going_bot		{player_color}{player_name} ({player_hero_name})^*: {unit_team_color}{unit_name}^* is missing from lane and is at {ping_tile}. Heading bottom!
-ping_ext_hero_coming_to_gank		{player_color}{player_name} ({player_hero_name})^*: Coming to gank {unit_team_color}{unit_name}^* at {ping_tile}!
-ping_ext_ground_ping					{player_color}{player_name} ({player_hero_name})^*: Alert! {ping_tile}!
-ping_ext_ground_get_back				{player_color}{player_name} ({player_hero_name})^*: Get back from {ping_tile}!
-ping_ext_ground_danger_here				{player_color}{player_name} ({player_hero_name})^*: Danger at {ping_tile}!
+ping_ext_building_attack			{player_color}{player_name} ({player_hero_name})^*: Greift die {unit_team_color}{unit_name}^* bei {ping_tile} an!
+ping_ext_building_defend			{player_color}{player_name} ({player_hero_name})^*: Beschütze unsere {unit_team_color}{unit_name}^* bei {ping_tile}!
+ping_ext_hero_attack				{player_color}{player_name} ({player_hero_name})^*: Greife {unit_team_color}{unit_name}^* bei {ping_tile} an!
+ping_ext_hero_get_back				{player_color}{player_name} ({player_hero_name})^*: Geh zurück von {unit_team_color}{unit_name}^* bei {ping_tile}!
+ping_ext_hero_missing				{player_color}{player_name} ({player_hero_name})^*: {unit_team_color}{unit_name}^* wird in der Linie vermisst und ist bei {ping_tile}!
+ping_ext_hero_missing_going_top		{player_color}{player_name} ({player_hero_name})^*: {unit_team_color}{unit_name}^*  wird in der Linie vermisst und ist bei {ping_tile}. Geh nach oben!
+ping_ext_hero_missing_going_mid		{player_color}{player_name} ({player_hero_name})^*: {unit_team_color}{unit_name}^*  wird in der Linie vermisst und ist bei {ping_tile}. Geh in die Mitte!
+ping_ext_hero_missing_going_bot		{player_color}{player_name} ({player_hero_name})^*: {unit_team_color}{unit_name}^*  wird in der Linie vermisst und ist bei {ping_tile}. Geh nach unten!
+ping_ext_hero_coming_to_gank		{player_color}{player_name} ({player_hero_name})^*: Überrenne {unit_team_color}{unit_name}^* bei {ping_tile}!
+ping_ext_ground_ping					{player_color}{player_name} ({player_hero_name})^*: Alarm! {ping_tile}!
+ping_ext_ground_get_back				{player_color}{player_name} ({player_hero_name})^*: Geh zurück von {ping_tile}!
+ping_ext_ground_danger_here				{player_color}{player_name} ({player_hero_name})^*: Gefahr bei {ping_tile}!
 ping_ext_ground_need_help_here				{player_color}{player_name} ({player_hero_name})^*: Brauche Hilfe bei {ping_tile}!
-ping_ext_ground_hero_missing				{player_color}{player_name} ({player_hero_name})^*: Hero missing from {ping_tile}!
-ping_ext_ground_hero_missing_going_top		{player_color}{player_name} ({player_hero_name})^*: Hero missing from {ping_tile}. Heading top!
-ping_ext_ground_hero_missing_going_mid		{player_color}{player_name} ({player_hero_name})^*: Hero missing from {ping_tile}. Heading middle!
-ping_ext_ground_hero_missing_going_bot		{player_color}{player_name} ({player_hero_name})^*: Hero missing from {ping_tile}. Heading bottom!
+ping_ext_ground_hero_missing				{player_color}{player_name} ({player_hero_name})^*: Held vermisst bei {ping_tile}!
+ping_ext_ground_hero_missing_going_top		{player_color}{player_name} ({player_hero_name})^*: Held vermisst bei {ping_tile}. Gehe nach oben!
+ping_ext_ground_hero_missing_going_mid		{player_color}{player_name} ({player_hero_name})^*: Held vermisst bei {ping_tile}. Gehe in die Mitte!
+ping_ext_ground_hero_missing_going_bot		{player_color}{player_name} ({player_hero_name})^*: Held vermisst bei {ping_tile}. Gehe nach unten!
 ping_ext_ground_fight_here				{player_color}{player_name} ({player_hero_name})^*: Greife bei {ping_tile} an!
 ping_ext_ground_coming_to_help		{player_color}{player_name} ({player_hero_name})^*: Komme zu Hilfe bei {ping_tile}!
 
@@ -99,49 +99,49 @@ ping_ext_ground_hero_missing_going_bot_generic		{player_color}{player_name} ({pl
 ping_ext_ground_fight_here_generic				{player_color}{player_name} ({player_hero_name})^*: Greif an!
 ping_ext_ground_coming_to_help_generic		{player_color}{player_name} ({player_hero_name})^*: Komme helfen!
 
-area_legion_base						Legion base
-area_legion_well						Legion well
-area_hellbourne_top_lane				Hellbourne obere Linie
-area_hellbourne_middle_lane				Hellbourne mittlere Linie
-area_hellbourne_bottom_lane				Hellbourne untere Linie
-area_hellbourne_base					Hellbourne base
-area_hellbourne_well					Hellbourne well
-area_hellbourne_jungle					Hellbourne Dschungel
-area_legion_jungle						Legion Dschungel
-area_kongors_pit						Kongor's Pit
-area_legion_ancient_spawn				Legion ancients Lager
-area_hellbourne_ancient_spawn			Hellbourne ancients Lager
-area_hellbourne_neutral_spawn1			Legion Dschungel Lager (schwierig)
-area_hellbourne_neutral_spawn2			Legion Dschungel Lager (einfach)
-area_hellbourne_neutral_spawn3			Legion Dschungel medium Lager (mittel)
-area_hellbourne_neutral_spawn4			Legion Dschungel medium Lager (mittel)
-area_hellbourne_neutral_spawn5			Legion Dschungel medium Lager (mittel)
-area_legion_neutral_spawn1				Hellbourne Dschungel Lager (schwierig)
-area_legion_neutral_spawn2				Hellbourne Dschungel Lager (einfach)
-area_legion_neutral_spawn3				Hellbourne Dschungel Lager (mittel)
-area_legion_neutral_spawn4				Hellbourne Dschungel Lager (mittel)
-area_legion_neutral_spawn5				Hellbourne Dschungel Lager (mittel)
-area_legion_outpost						Legion Aussenposten
-area_hellbourne_outpost					Hellbourne Aussenposten
-area_rune_top							Obere rune
-area_rune_bottom						Untere rune
+area_legion_base						Legion's Basis
+area_legion_well						Legio'sn Quelle
+area_hellbourne_top_lane				Hellbourne's obere Linie
+area_hellbourne_middle_lane				Hellbourne's mittlere Linie
+area_hellbourne_bottom_lane				Hellbourne's untere Linie
+area_hellbourne_base					Hellbourne's Basis
+area_hellbourne_well					Hellbourne's Quelle
+area_hellbourne_jungle					Hellbourne's Dschungel
+area_legion_jungle						Legion's Dschungel
+area_kongors_pit						Kongor's Grube
+area_legion_ancient_spawn				Legion's Ältesten-Lager
+area_hellbourne_ancient_spawn			Hellbourne's Ältesten-Lager
+area_hellbourne_neutral_spawn1			Legion's Dschungel-Lager (schwierig)
+area_hellbourne_neutral_spawn2			Legion's Dschungel-Lager (einfach)
+area_hellbourne_neutral_spawn3			Legion's Dschungel-Lager (mittel)
+area_hellbourne_neutral_spawn4			Legion's Dschungel-Lager (mittel)
+area_hellbourne_neutral_spawn5			Legion's Dschungel-Lager (mittel)
+area_legion_neutral_spawn1				Hellbourne Dschungel-Lager (schwierig)
+area_legion_neutral_spawn2				Hellbourne Dschungel-Lager (einfach)
+area_legion_neutral_spawn3				Hellbourne Dschungel-Lager (mittel)
+area_legion_neutral_spawn4				Hellbourne Dschungel-Lager (mittel)
+area_legion_neutral_spawn5				Hellbourne Dschungel-Lager (mittel)
+area_legion_outpost						Legion's Aussenposten
+area_hellbourne_outpost					Hellbourne's Aussenposten
+area_rune_top							Obere Rune
+area_rune_bottom						Untere Rune
 area_river								Fluss
-area_legion								Legion Gebiet
-area_hellbourne							Hellbourne Gebiet
-area_legion_top_lane					Legion obere Linie
-area_legion_middle_lane					Legion mittlere Linie
-area_legion_bottom_lane					Legion untere Linie
+area_legion								Legiongebiet
+area_hellbourne							Hellbournegebiet
+area_legion_top_lane					Legion's obere Linie
+area_legion_middle_lane					Legion's mittlere Linie
+area_legion_bottom_lane					Legion's untere Linie
 area_river_top							Fluss oben
 area_river_bottom						Fluss unten
 area_legion_top_middle_pass				Legion's obere Passage
 area_legion_middle_bottom_pass			Legion's untere Passage
 area_hellbourne_top_middle_pass			Hellbourne's obere Passage
 area_hellbourne_middle_bottom_pass		Hellbourne's untere Passage
-area_hellbourne_observatory				Hellbourne Sternwarte
-area_legion_observatory					Legion Sternwarte
+area_hellbourne_observatory				Hellbourne's Sternwarte
+area_legion_observatory					Legion's Sternwarte
 area_river_middle						Fluss mitte
-area_legion_middle_lane_river			Legion Fluss mitte
-area_hellbourne_middle_lane_river		Hellbourne Fluss mitte
+area_legion_middle_lane_river			Legion's Fluss mitte
+area_hellbourne_middle_lane_river		Hellbourne's Fluss mitte
 
 
 teamkillstreak						{team} sind ^rEROBERND!!!^*
@@ -150,9 +150,9 @@ teamwipe							{team} wurde komplett ausgelöscht!!!
 
 teamkill							{killer} pwned {victim}'s Kopf!! ^y{gold}^* Gold wird verteilt.
 
-neutralkill							{victim} wurde getöten von Neutral Creeps.
-kongorkill							{victim} wurde getöten von Kongor.
-bosskill							{victim} wurde getöten von {boss}.
+neutralkill							{victim} wurde getötet von neutralen Creeps.
+kongorkill							{victim} wurde getötet von Kongor.
+bosskill							{victim} wurde getötet von {boss}.
 
 suicide								{victim} hat sich selbst getötet!
 
@@ -166,49 +166,49 @@ teamkillkongor						{killer} hat Kongor erschlagen. {killer} erhält ^y{gold}^* 
 killboss							{killer} hat {boss} erschlagen. {reward} erhält ^y{gold}^* Bonus-Gold!
 teamkillboss						{killer} hat {boss} erschlagen. {killer} erhält ^y{gold}^* Bonus-Gold!
 
-share0								{player} is no longer sharing control of their units with you.
-share1								{player} is now sharing control of their units with you.
-share2								{player} is now sharing control of their courier with you.
-share3								{player} is now sharing control of their units with you.
+share0								{player} teilt nicht mehr die Steuerung seiner Einheiten mit dir.
+share1								{player} teilt jetzt die Steuerung seiner Einheiten mit dir.
+share2								{player} teilt jetzt die Steuerung seines Kuriers mit dir.
+share3								{player} teilt jetzt die Steuerung seiner Einheiten mit dir.
 
-powerup								{player} has picked up ^r{powerup}^*
-powerup_bottle						{player} has bottled ^r{powerup}^*
-powerup_bottle_use					{player} has used ^r{powerup}^*
+powerup								{player} hat ^r{powerup}^* aufgehoben
+powerup_bottle						{player} hat ^r{powerup}^* verschickt
+powerup_bottle_use					{player} hatd ^r{powerup}^* benutzt
 
-creepupgrade						The creeps have grown stronger...
-megacreeps							The {killer} has destroyed all of the {victim}'s unit producing structures. The {killer} now have Mega Creeps.
+creepupgrade						Die Creeps sind stärker geworden...
+megacreeps							{killer} hat alle einheitenproduzierenden Strukturen von {victim} zerstört. {killer} besitzt jetzt Mega Creeps.
 
-smackdown							{victim} has been SMACKED DOWN by {killer}!
-humiliation							{killer} just HUMILIATED {victim}!
+smackdown							{victim} wurde von {killer} NIEDERGESCHLAGEN!
+humiliation							{killer} hat {victim} GEDEMÜTIGT!
 rival								{killer} is completely ^rOWNING^* {victim}!
-payback								{killer} has gained ^rPAYBACK^* against {victim}!
+payback								{killer} hat es {victim}  ^rHEIMGEZAHLT^*!
 
 client_connected					{player_color}{player}^* ist beigetreten.
 client_reconnected					{player_color}{player}^* wird verlassen. (Verbleibende ZEit: {time})
 client_disconnected					{player_color}{player}^* getrennt.
-client_timedout						{player_color}{player}^* has timed out.
+client_timedout						{player_color}{player}^* ist abgelaufen.
 client_terminated					{player_color}{player}^* has been terminated. Their hero has been removed and their assets distributed to their team.
-client_connected_mentor				{player_color}{player}^* has connected to mentor you.
-client_connected_spec				{player_color}{player}^* has connected to spectate {spec_color}{spec_player}^*.
+client_connected_mentor				{player_color}{player}^* wurde als dein Mentor verbunden.
+client_connected_spec				{player_color}{player}^* hat sich als Zuschauer für {spec_color}{spec_player}^* verbunden.
 
 hero_pick							{player_color}{player}^* hat ^885{hero_name}^* ausgewählt.
 hero_pick_blind						{player_color}{player}^* hat ein Held ausgewählt.
 hero_random							{player_color}{player}^* hat zufällig ^885{hero_name}^* ausgewählt.
 hero_random_blind					{player_color}{player}^* hat zufällig ein Held ausgewählt.
-hero_repick							{player_color}{player}^* is repicking. ^885{hero_name}^* is now available.
-hero_repick_blind					{player_color}{player}^* is repicking.
-hero_swap							{player_color}{player}^* swapped heroes with {player2_color}{player2}^*.
-hero_swap_request					{player_color}{player}^* has offered to swap heroes with you.
-hero_ban							{player_color}{player}^* has ^rbanned^* ^885{hero_name}^*.
+hero_repick							{player_color}{player}^* wählt neu. ^885{hero_name}^* ist jetzt verfügbar.
+hero_repick_blind					{player_color}{player}^* wählt neu.
+hero_swap							{player_color}{player}^* hat den Held mit {player2_color}{player2}^* getauscht.
+hero_swap_request					{player_color}{player}^* hat dir einen Heldentausch angeboten.
+hero_ban							{player_color}{player}^* hat ^885{hero_name}^* ^rgebannt^*.
 hero_ban_random						Fate has ^rbanned^* ^885{hero_name}^*.
-hero_lock							{player_color}{player}^* has ^ylocked^* ^885{hero_name}^*.
-hero_shuffle_pick					{player_color}{player}^* has ^pshuffle picked^* ^885{hero_name}^*.
-hero_lock_random					Fate has ^ylocked^* ^885{hero_name}^*.
-hero_hidden_ban						{team_color}{team} ^*has ^rbanned^*: ^885{hero}^*.
+hero_lock							{player_color}{player}^* hat ^885{hero_name}^* ^ygesperrt^*.
+hero_shuffle_pick					{player_color}{player}^* hat ^pshuffle picked^* ^885{hero_name}^*.
+hero_lock_random					Fate hat ^885{hero_name}^* ^ygesperrt^*.
+hero_hidden_ban						{team_color}{team} ^*hat ^rgebannt^*: ^885{hero}^*.
 
 random_filter_message				{player_color}{player}^* has randomed{filters}{favorites} with {num_of_heroes} heroes to random from.
 using_favorites						^* using a ^558favorites list^*
-using_filters						^* with filters ^558{filters}^*
+using_filters						^* mit Filter ^558{filters}^*
 filter_solo							Einzel
 filter_jungle						Jungle
 filter_carry						Carry
@@ -225,18 +225,18 @@ game_phase_lock						Beginn der ^rLocking Phase^*.
 game_phase_lock_pick				Beginn der ^rLock Pick Phase^*.
 game_phase_hero_hidden_ban			Beginn der ^rHidden Banning Phase^*.
 game_phase_shuffle_pick				Beginn der ^rShuffle Pick Phase^*: ^yWähle zwei Helden und ihre Fähigkeiten in den Pool^*.
-game_turn_ban						Es ist {player_color}{player}^* an der Reihe für den ^rban^*.
-game_turn_picking					Es ist {player_color}{player}^* an der Reihe für den ^rpick^*.
+game_turn_ban						Es ist {player_color}{player}^* an der Reihe für den ^rBan^*.
+game_turn_picking					Es ist {player_color}{player}^* an der Reihe für den ^rPick^*.
 
 player_ready						{player_color}{player}^* ist ^gbereit^*.
 player_unready						{player_color}{player}^* ist ^rnicht mehr bereit^*.
 
-player_boughtback					{player_color}{player}^* has bought back and respawned at the well.
-player_boughtback2					{player_color}{player}^* has bought back and respawned at the well. {buybacks_used}/{buybacks_remaining} buybacks used.
+player_boughtback					{player_color}{player}^* hat sich zurückgekauft und ist an der Quelle erschienen.
+player_boughtback2					{player_color}{player}^* hat sich zurückgekauft und ist an der Quelle erschienen. {buybacks_used}/{buybacks_remaining} Rückkäufen benutzt.
 
-error_all_buybacks_used				You have no buybacks remaining.
+error_all_buybacks_used				Du hast keine Rückkäufe übrig.
 
-error_target_invulnerable			Ziel ist unverwundbar.
+error_target_invulnerable			Das Ziel ist unverwundbar.
 error_not_ready						{tool} ist noch nicht bereit.
 error_low_mana						Zuwenig Mana für {tool}.
 error_no_proxy						No available proxy for {tool}.
@@ -244,9 +244,9 @@ error_not_unit_ability				Must target a unit with this ability.
 error_not_unit_item					Must target a unit with this item.
 error_not_unit						Du musst eine Einheit auswählen.
 error_invalid_target				Dies ist kein gültiges Ziel.
-error_courier_no_stash				You have no items in your stash.
+error_courier_no_stash				Du hast keine Gegenstände in deinem Versteck.
 
-courier_actions_queued				Delivering your items.
+courier_actions_queued				Liefert deine Gegenstände aus.
 
 chat_all							^269[ALL] {color}{player} ({hero}): ^*{message}
 chat_roll							^190[ROLL]^* {color}{message}
@@ -260,55 +260,55 @@ server_message						^188[SERVER] ^yServer Message: {message}
 staff_message						^188[SERVER] ^yStaff Message: {message}
 chat_mentor							^527[MENTOR] {color}{player} ({hero}): ^*{message}
 
-error_item_unavailable				{item} is unavailable at this location.
+error_item_unavailable				{item} isz an diesem Ort nicht erhältlich.
 error_low_gold_item					Du kannst dir {item} nicht leisten.
 error_low_gold_recipe				Du kannst dir {item} nicht leisten.
-error_low_gold_buy_all				You cannot afford all the components for {item}.
+error_low_gold_buy_all				Du kannst dir nicht alle Teile für {item} leisten.
 error_not_owned_to_stash_xfer		Du besitzt diesen Gegenstand nicht.
 
 str_bonus							{value} Stärke
-str_bonus_per_level					{value_per_level} Strength per level
-str_bonus_per_charge				{value_per_charge} Strength per charge
-agi_bonus							{value} Agilität
-agi_bonus_per_level					{value_per_level} Agility per level
-agi_bonus_per_charge				{value_per_charge} Agility per charge
-agi_bonus_percharge					{value_per_charge} Agility per charge
+str_bonus_per_level					{value_per_level} Stärke pro Level
+str_bonus_per_charge				{value_per_charge} Stärke per charge
+agi_bonus							{value} Ge­wandt­heit
+agi_bonus_per_level					{value_per_level} Ge­wandt­heit pro Level
+agi_bonus_per_charge				{value_per_charge} Ge­wandt­heit per charge
+agi_bonus_percharge					{value_per_charge} Ge­wandt­heit per charge
 int_bonus							{value} Intelligenz
-int_bonus_per_level					{value_per_level} Intelligence per level
-int_bonus_per_charge				{value_per_charge} Intelligence per charge
-int_bonus_percharge				{value_per_charge} Intelligence per charge
-max_health_bonus					{value} Max Health
-max_health_mult_bonus				{value}% Max Health
+int_bonus_per_level					{value_per_level} Intelligenz pro Level
+int_bonus_per_charge				{value_per_charge} Intelligenz pro charge
+int_bonus_percharge					{value_per_charge} Intelligenz pro charge
+max_health_bonus					{value} Max Gesundheit
+max_health_mult_bonus				{value}% Max Gesundheit
 max_mana_bonus						{value} Max Mana
 max_mana_mult_bonus					{value}% Max Mana
 base_damage_mult_bonus				{value}% Base Schaden
 damage_mult_bonus					{value}% Angriffsschaden
 damage_bonus						{value} Schaden
-damage_bonus_per_charge				{value} Damage per charge
+damage_bonus_per_charge				{value} Schaden pro charge
 move_speed_bonus					{value} Movement Speed
 move_speed_mult_bonus				{value}% Movement Speed
 move_speed_mult_bonus_per_charge	{value}% Movement Speed per charge
 slow_resistance_bonus				{value}% Slow Resistance
 move_speed_slow_bonus				{value}% Movement Slow
 move_speed_slow_bonus_per_charge	{value}% Movement Slow per charge
-attack_speed_bonus					{value} Attack Speed
-attack_speed_bonus_per_charge		{value} Attack Speed per charge
-attack_speed_mult_bonus				{value}% Attack Speed
+attack_speed_bonus					{value} Angriffsgeschwindigkeit
+attack_speed_bonus_per_charge		{value} Angriffsgeschwindigkeit pro charge
+attack_speed_mult_bonus				{value}% Angriffsgeschwindigkeit
 attack_speed_slow_bonus				{value}% Attack Slow
 cast_speed_bonus					{value} Cast Speed
 cooldown_speed_bonus				{value} Cooldown Speed
 reduced_cooldowns_bonus				{value}% Reduced Cooldowns
 increased_cooldowns_bonus			{value}% Increased Cooldowns
-armor_bonus							{value} Armor
-armor_bonus_per_charge				{value} Armor per charge
-magic_armor_bonus					{value} Magic Armor
-magic_armor_bonus_per_charge		{value} Magic Armor per charge
-health_regen_percent_bonus			{value}% Health per second
-health_regen_bonus					{value} Health Regeneration
-health_regen_mult_bonus				{value}% Health Regeneration
-mana_regen_percent_bonus			{value}% Mana per second
-mana_regen_bonus					{value} Mana Regeneration
-mana_regen_mult_bonus				{value}% Mana Regeneration
+armor_bonus							{value} Rüstung
+armor_bonus_per_charge				{value} Rüstung pro charge
+magic_armor_bonus					{value} Magische Rüstung
+magic_armor_bonus_per_charge		{value} Magische Rüstung pro charge
+health_regen_percent_bonus			{value}% Gesundheit pro second
+health_regen_bonus					{value} Gesundheitsregeneration
+health_regen_mult_bonus				{value}% Gesundheitsregeneration
+mana_regen_percent_bonus			{value}% Mana pro Sekunde
+mana_regen_bonus					{value} Manaregeneration
+mana_regen_mult_bonus				{value}% Manaregeneration
 deflection_bonus					{value1}% chance to block {value2} attack damage
 evasion_bonus						{value}% Evasion
 ranged_evasion_bonus				{value}% Ranged Evasion
@@ -368,12 +368,12 @@ action_target_global				Global
 action_target_self					Eigen
 action_facing						Facing
 action_self_position				Self Position
-action_attack						Attack
-action_attack_toggle				Attack Toggle
-action_target_dual					Target Dual
-action_target_dual_position			Target Dual
-action_target_vector				Target Vector
-action_target_cursor				Target Cursor
+action_attack						Angriff
+action_attack_toggle				Angriff Toggle
+action_target_dual					Ziel Dual
+action_target_dual_position			Ziel Dual
+action_target_vector				Ziel Vector
+action_target_cursor				Ziel Cursor
 action_target_entity_vector			Vector Entity
 
 ability_levelup_max					^gMaximaler Level^*
@@ -388,11 +388,11 @@ activate_ability					Klicken, um diese Fähigkeit zu aktivieren
 activate_item						Klicken, um diesen Gegenstand zu aktivieren
 activate_item_no_share				^rDeaktiviert - Gehört {name}
 activate_item_no_share_ownerless	^rDeaktiviert
-activate_item_borrowed				^gAusborgen von {name}
+activate_item_borrowed				^gAusborgt von {name}
 activate_passive					^gDies ist eine passive Fähigkeit
 
 attribute_strength					Stärke
-attribute_agility					Beweglichkeit
+attribute_agility					Ge­wandt­heit
 attribute_intelligence				Intelligenz
 
 attribute_damage_bonus				{value} Schaden
@@ -405,17 +405,17 @@ attribute_mana_regen_bonus			{value} Mana Wiederherstellung
 
 auto_assemble						Auto
 
-creep_spawn_warning_message			Creeps will spawn in {interval} Sekunden
+creep_spawn_warning_message			Creeps werden in {interval} Sekunden erscheinen
 
 shop_action_view_recipe				^yKlicke um dir dieses Rezept ^195ANZUSEHEN^*
 shop_action_view_item				^yKlicke um dir diesen Gegenstand ^195ANZUSEHEN^*
-shop_action_auto_assemble			^yThis item auto-assembles
+shop_action_auto_assemble			^yDieser Gegenstand setzt sich selbst zusammen
 shop_action_already_purchased		^gDu besitzt diesen Gegenstand schon
-shop_action_cannot_shop				^rThis unit cannot carry items
+shop_action_cannot_shop				^rDiese Einheit kann diesen Gegenstand nicht tragen
 shop_action_cannot_afford_item		^rDu kannst dir diesen Gegenstand nicht leisten
 shop_action_cannot_afford_recipe	^rDu kannst dir dieses Rezept nicht leisten
 shop_action_purchase_item			^yKlicke um diesen Gegenstand zu ^195KAUFEN^*
-shop_action_purchase_item_stash		^yClick to ^195STASH^* this item
+shop_action_purchase_item_stash		^yKlicke um diesen Gegenstand zu^195VERSTECKEN^*
 shop_action_purchase_recipe			^yKlicke um dieses Rezept zu ^195KAUFEN^*
 shop_action_unavailable				^rNicht möglich in diesem Bereich
 
@@ -428,35 +428,35 @@ vote_called_pause				{team_color}{team}^* hat eine Abstimmung zum Pausieren eing
 vote_passed						Abstimmung angenommen.
 vote_failed						Abstimmung abgelehnt.
 
-team_concede					{color}{team}^* has conceded the match. Stats for the rest of the match will not be recorded and everyone is free to leave without penalty.
-game_abandoned					Your team mates have abandoned you. The match will continue, but you are now free to leave without increasing your Leaver %.
+team_concede					{color}{team}^* das Spiel aufgegeben. Statistiken für den Rest des Spiels werden nicht aufgezeichnet und jeder kann das Spiel ohne Konsequenzen verlassen.
+game_abandoned					Dein Team hat dich fallen gelassen. Das Spiel geht weiter, aber du kannst jetzt das Spiel verlassen ohne dass deine Abbrüche % erhöht werden.
 afk_warning						Du läufst Gefahr als untätig markiert zu werden. Geh raus und kämpfe!
-afk_message						Du wurdest als AFK markiert und kannst nun rausgeschmissen werden.
+afk_message						Du wurdest als AFK markiert und kannst nun gefeuert werden.
 
 lobby_connect					{color}{player}^* verbindet sich.
 lobby_connect_mentor			{color}{player}^* verbindet sich um dich zu lehren.
 lobby_connect_spec				{player_color}{player}^* hat sich verbunden um als {spec_player} zuzuschauen.
-lobby_kick						{color}{player}^* wurde durch den Gastgeber rausgeschmissen.
-lobby_kick_spec					Du hast {color}{player}^* rausgeschmissen.
+lobby_kick						{color}{player}^* wurde durch den Gastgeber gefeuert.
+lobby_kick_spec					Du hast {color}{player}^* gefeuert.
 lobby_disconnect				{color}{player}^* hat das Spiel verlassen.
 lobby_balance					Der Gastgeber hat die Teams ausgeglichen.
 lobby_force_swap				Der Gastgeber hat {slot1_color}{slot1}^* und {slot2_color}{slot2}^* getauscht.
 lobby_countdown_cancel			Der Spiel-Countdown wurde abgebrochen.
-lobby_lock						Der Gastgeber hat {slot_color}{slot}^* slot gesperrt.
-lobby_unlock					Der Gastgeber hat {slot_color}{slot}^* slot entsperrt.
+lobby_lock						Der Gastgeber hat {slot_color}{slot}^* Slot gesperrt.
+lobby_unlock					Der Gastgeber hat {slot_color}{slot}^* Slot entsperrt.
 lobby_assign_host				{slot_color}{player}^* wurde als neuen Gastgeber zugewiesen.
 lobby_assign_spectator			Der Gastgeber hat {slot_color}{player}^* als Zuschauer zugewiesen.
 lobby_assign_referee			Der Gastgeber hat {slot_color}{player}^* als Schiedsrichter zugewiesen.
-lobby_assign_first_ban			Der Gastgeber hat {team_color}{team}^* team first ban.
+lobby_assign_first_ban			Der Gastgeber hat {team_color}{team}^* 's Team als erstes verbannt.
 
 game_info_practice				Üben
-nosolo							Du brauchst einen Gegner um das Spiel zu spielen.  Starte ^yÜbungsspiel^* wenn du alleine spielen wills.
-warn_nomods					{slot_color}{player}^* is using modded files and will only be allowed to spectate the game.
-nomods						Could not start game.  {slot_color}{player}^* is using modded files and must spectate or disable ALL mods (interface, texture, etc) before being allowed to play in this Tournament Rules game.
+nosolo							Du brauchst einen Gegner um das Spiel zu spielen.  Starte ein ^yÜbungsspiel^* wenn du alleine spielen wills.
+warn_nomods						{slot_color}{player}^* benutzt Mods und ist nur als Zuschauer für das Spiel zugelassen.
+nomods							Spiel konnte nicht gestartet werden. {slot_color}{player}^* benutzt Mods und musst zuschauen oder ALLE Mods (Benutzeroberfläche, Texturen, etc) entfernen, bevor er in diesem Spiel mit Turnierregel teilnehmen kann.
 game_unpause					{name} hat das Spiel pausiert. Das Spiel geht in 5 Sekunden weiter.
-player_ping					{slot_color}{player}^* ping: {ping}ms
-player_ping_no_players				No players to ping.
-team_ping					{team_color}{team_name}^* average ping: {ping}ms
+player_ping						{slot_color}{player}^* ping: {ping}ms
+player_ping_no_players			No players to ping.
+team_ping						{team_color}{team_name}^* average ping: {ping}ms
 
 spectator_team_name				Spectators
 legion_team_name				Legion

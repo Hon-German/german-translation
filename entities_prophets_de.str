@@ -1,6 +1,6 @@
 wl_Powerup_Damage_name 								Double Damage Rune
 wl_State_Damage_name 								Double Damage
-wl_State_Damage_FRAME_effect 						All Damage dealt is doubled.
+wl_State_Damage_FRAME_effect 						Jeder verursachter Schaden wird verdoppelt.
 
 wl_Powerup_Speed_name 								Haste Rune
 wl_State_Speed_name 								Haste
@@ -10,20 +10,20 @@ wl_State_Regen_name 								Regeneration
 
 wl_Powerup_Slow_name 								Time Manipulation Rune
 wl_State_Slow_name 									Time Manipulation
-wl_State_Slow_FRAME_effect 							All enemies are slowed by 50%.
+wl_State_Slow_FRAME_effect 							Alle Gegner werdem um 50% verlangsamt.
 wl_State_SlowAura_name 								Time Slowed
-wl_State_SlowAura_FRAME_effect 						Everything slowed by 50%.
+wl_State_SlowAura_FRAME_effect 						Alles wird um 50% verlangsamt.
 
 
 wl_Obelisk_name 									Obelisk
 
 wl_Warlock_name 									Prophet
 
-wl_State_Hero2_name 								Shop Access
-wl_State_Hero2_FRAME_effect 						Its shopping time! The default hotkey to open the shop is "B".
+wl_State_Hero2_name 								Zugang zum Laden
+wl_State_Hero2_FRAME_effect 						Es ist Einkaufszeit! Das Standart-Tastaturkürzel um den LAden zu öffen ist "B".
 
-wl_Outside_name 									Out of the Arena
-wl_Outside_FRAME_effect 							Taking 50 Damage per second. Get back inside the arena!
+wl_Outside_name 									Ausserhalb der Arena
+wl_Outside_FRAME_effect 							Du erleidest 50 Schaden pro Sekunde. Geh zurück in die Arena!
 
 
 
@@ -231,14 +231,14 @@ wl_Item_Upgrade0_IMPACT_effect 						Heals self for ^o8/13/18/23/28%^* of all Da
 wl_Item_Upgrade0_shop_flavor 						Life is another one of those elements the prophets have mastered.\nThey managed to figure out a way to drain life while dealing Damage at the same time.\nA very useful feature for an experienced prophet.
 
 wl_Upgrade0_name									Lifesteal
-wl_Upgrade0_FRAME_effect							Heals self for ^o8/13/18/23/28%^* of all Damage dealt
+wl_Upgrade0_FRAME_effect							Heilt sich selber um ^o8/13/18/23/28%^* bei erlittenem Schaden
 
 // wl_AbilityChannelbar
 wl_AbilityChannelbar_name							Laden geöffnet
 
 // wl_AbilityTooltip
 wl_AbilityTooltip_name								Hilfe
-wl_AbilityTooltip_description						If you need more help, click here!
+wl_AbilityTooltip_description						Klicke hier, falls du mehr Hilfe benötigst!
 wl_AbilityTooltip_description_simple				In this game, you want to be the last man standing as the Arena slowly shrinks. If you step outside of it, you will take Damage over time. Buy new abilitie or upgrade your current ones between rounds.\n\nClick for more Information.
 wl_AbilityTooltip_IMPACT_effect						In this game, you want to be the last man standing as the Arena slowly shrinks. If you step outside of it, you will take Damage over time. Buy new abilitie or upgrade your current ones between rounds.\n\nClick for more Information.
 

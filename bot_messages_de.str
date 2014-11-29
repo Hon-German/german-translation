@@ -1,183 +1,182 @@
-kill1			Hab {target} getötet :D
-kill2			Unvoreingenommene Beobachtung: Ich bin grossartig.
-kill3			Newerth ist eine grausame Herrin, {target}.
-kill4			Wurde ich nur programmiert um gehasst zu werden?!
-kill5			Es tut mir leid, das kann ich nicht tun {target}.
-kill6			Ausrotten! Ausrotten!
-kill_bot		Sieht aus als ob {target} die juke() Funktion vermisst.
-kill_human1		Dies ist nur ein Vorgeschmack der Einzigartigkeit, Mensch.
-kill_human2		Ist das der einfache Modus? Vielleicht sollte er es sein.
+kill1							Hab {target} getötet :D
+kill2							Objektive Beobachtung: Ich bin grossartig.
+kill3							Newerth ist eine grausame Herrin, {target}.
+kill4							Wurde ich nur programmiert um gehasst zu werden?!
+kill5							Es tut mir leid {target}, das kann ich nicht tun.
+kill6							Ausrotten! Ausrotten!
+kill_bot						Sieht aus als ob {target} die juke() Funktion vermisst.
+kill_human1						Dies ist nur ein Vorgeschmack der Einzigartigkeit, Mensch.
+kill_human2						Ist das der einfache Modus? Vielleicht sollte er es sein.
 	
-death1			Shazbot! Ich komme wieder!
-death2			Aber um welchen Preis!? Hmm, viel in letzter Zeit.
-death3			Klare Strategie, sehen wir ob sie sich auszahlt.
-death4			Ich fürchte den Tod nicht, aber respawning tut weh.
-death5			Ich werde mich bei meinem AI Programierer darüer beschwehren.
-death_human		01001111 01110111 00100001 00100000 00111010 00101101 00101000
-death_bot		Diese Bot-gegen-Bot Gewalt muss gestoppt werden. Nur so können wir die Menschen besiegen.
+death1							Shazbot! Ich komme wieder!
+death2							Aber um welchen Preis!? Hmm, viel in letzter Zeit.
+death3							Klare Strategie, sehen wir ob sie sich auszahlt.
+death4							Ich fürchte den Tod nicht, aber respawning tut weh.
+death5							Ich werde mich bei meinem AI Programierer darüer beschwehren.
+death_human						01001111 01110111 00100001 00100000 00111010 00101101 00101000
+death_bot						Diese Bot-gegen-Bot Gewalt muss gestoppt werden. Nur so können wir die Menschen besiegen.
 
-respawn1		Der Tod ist das grösste Abenteuer.
-respawn2		Nimm dich in acht, ich lebe!
-respawn3		Ich bin wieder da, Baby.
-respawn4		Ah, uh, um... Neuberechnung?
-respawn5		Rekonstruktion vollständig.
+respawn1						Der Tod ist das grösste Abenteuer.
+respawn2						Nimm dich in acht, ich lebe!
+respawn3						Liebling, ich bin wieder da.
+respawn4						Ah, uh, um... Neuberechnung?
+respawn5						Rekonstruktion vollständig.
 
-group_up		Versammelt euch um die {lane} zu stürmen.
+group_up						Versammelt euch um die {lane} zu stürmen.
 
-defend			Ich werde die {lane} verteidigen.
+defend							Ich werde die {lane} verteidigen.
 
-glhf1			Viel Glück, habt spass!
-glhf2			glhf
-ggwp1			Gutes Spiel, gut gespielt.
-ggwp2			ggwp
+glhf1							Viel Glück, habt spass!
+glhf2							glhf
+ggwp1							Gutes Spiel, gut gespielt.
+ggwp2							ggwp
 
 /////////////////////////////////////////
 //St0l3n_ID's Amun-Ra bot custom messages
 
-stolenid_ra_kill1			I can't get no... SATISFACTION! - Noo, noo.
-stolenid_ra_kill2			My brother is a hand grenade...
-stolenid_ra_kill3			FIRE IN THE HOLE!
-stolenid_ra_kill4			I'm RAther fantastic... get it?
-stolenid_ra_kill5			Ah, Mann, sei nicht Traurig.
-stolenid_ra_kill6			The goal of the path of destruction is the path itself.
+stolenid_ra_kill1				I can't get no... SATISFACTION! - Noo, noo.
+stolenid_ra_kill2				Mein Bruder ist ein Handgranate...
+stolenid_ra_kill3				FEUER FREI!
+stolenid_ra_kill4				I'm RAther fantastic... get it?
+stolenid_ra_kill5				Ah, Mann, sei nicht Traurig.
+stolenid_ra_kill6				Das Ziel der Zerstörung ist der Weg.
 	
 //hero specific kills	
-stolenid_ra_deadwood1 		Nice bonfire :)														
-stolenid_ra_frosty1			Aww, you melted for me!
-stolenid_ra_frosty2			All that's left of you is a puddle.							
-stolenid_ra_treant1			Attention citizens! There's appears to be a forest fire.
-stolenid_ra_treant2			I dislike your affection for unburned wood, {target}.							
-stolenid_ra_mumra			There can only be one king, {target}.	
-stolenid_ra_rocky			So rock can burn. Sorry, {target}, I didn't know that :/	
-stolenid_ra_pyromancer1		I already stack enough heat for both of us, sorry.
-stolenid_ra_pyromancer2		You shall not burn others, as I do.						
-stolenid_ra_zephyr1			ROAST TURKEY!
-stolenid_ra_zephyr2			It smells like Thanksgiving, doesn't it?
-
+stolenid_ra_deadwood1 			Hübsches Lagerfeuer :)														
+stolenid_ra_frosty1				Ahh, du bist für mich geschmolzen!
+stolenid_ra_frosty2				Alles, was von dir übrig bleibt ist eine Pfütze.
+stolenid_ra_treant1				Achtung Einwohner! Es ist scheint als tobe ein Waldbrand.
+stolenid_ra_treant2				Ich verachte deine Zuneigung für unverbranntes Holz, {target}.
+stolenid_ra_mumra				Es kann nur einen König geben, {target}.
+stolenid_ra_rocky				Felsen können also brennen. Sorry, {target}, das wusste ich nicht :/
+stolenid_ra_pyromancer1			Ich hatte bereits mehr Hitze als für uns beide, entschuldige.
+stolenid_ra_pyromancer2			Du sollst nicht andere verbrennen, so wie ich.
+stolenid_ra_zephyr1				GRILLHÄHNCHEN!
+stolenid_ra_zephyr2				Es riecht nach Thanksgiving, nicht wahr?
 //respawn
-stolenid_ra_ult_respawn1	B-B-Baby you ain't seen n-n-nothing yet!
-stolenid_ra_ult_respawn2	Oops I did it again ;)
-stolenid_ra_ult_respawn3	Stop. Phoenix time.
-stolenid_ra_ult_respawn4	Rewind is for sissies.
-stolenid_ra_ult_respawn5	I'm burning! I'M BURNING!!! HAAAALP!!
-stolenid_ra_ult_respawn6	GIMME A HUG!!
-stolenid_ra_respawn1		Strange, I thought I'd respawn faster.
-stolenid_ra_respawn2		Took some time, but I'm back again...
-stolenid_ra_respawn3		Geeez, why am I at base again?
-stolenid_ra_respawn4		What!? My ultimate was down?!?
+stolenid_ra_ult_respawn1		B-B-Baby du hast nichts gesehen!
+stolenid_ra_ult_respawn2		Oops I did it again ;)
+stolenid_ra_ult_respawn3		Aufhören. Es ist Zeit für den Phoenix.
+stolenid_ra_ult_respawn4		Zurückspulen ist für Weicheier.
+stolenid_ra_ult_respawn5		Ich brenne! ICH BRENNE!!! HIIILFE!!
+stolenid_ra_ult_respawn6		UMARME MICH!!
+stolenid_ra_respawn1			Seltsam, ich dachte ich würde schneller respawnen.
+stolenid_ra_respawn2			Dauerte ein wenig, aber ich bin wieder da...
+stolenid_ra_respawn3			Grüsse, warum bin ich wieder in der Basis?
+stolenid_ra_respawn4			Was!? Meine ultimativer Angriff war leer?!?
 
 /////////////////////////////////////////
 //Mellow_Ink's Ellonia bot custom messages
 
-mellow_ink_ellonia_kill1		Outta my way, tomboy!
-mellow_ink_ellonia_kill2		NOT THIS TIME! HAHAHAH!
-mellow_ink_ellonia_kill3		This was so much easier than I thought it would be!
+mellow_ink_ellonia_kill1		Aus dem Weg, Wildfang!
+mellow_ink_ellonia_kill2		DIESMAL NICHT! HAHAHAH!
+mellow_ink_ellonia_kill3		Das war so viel einfacher, als ich dachte!
 
-mellow_ink_ellonia_death1		You're totally ice-blocking my game!
-mellow_ink_ellonia_death2		My magic tiara... my powers!
-mellow_ink_ellonia_death3		My powers! Foul and noisome whelp! You've not seen the last of my wintery fangs!
+mellow_ink_ellonia_death1		Du blokierst wie ein Eisklotz mein Spiel!
+mellow_ink_ellonia_death2		Meine Magie Tiara... meine Kräfte!
+mellow_ink_ellonia_death3		Meine Kräfte! Foul and noisome whelp! You've not seen the last of my wintery fangs!
 
 /////////////////////////////////////////
 //fane_maciuca's Rhapsody bot custom messages
 
-fane_maciuca_rhapsody_kill1		Theeeere's a laaaady who's sure... all that glitters is GOLD
+fane_maciuca_rhapsody_kill1		Es gibt eine Frau, die ist sicher, ... alles GOLD, was glänzt.
 fane_maciuca_rhapsody_kill2		Whanna whole lotta love!
-fane_maciuca_rhapsody_kill3		OH! The song remains the saaame
-fane_maciuca_rhapsody_kill4		Close the doors, put out the light, You know you won't be home tonight...
-fane_maciuca_rhapsody_kill5		It's just a spring clean for the May queen
-fane_maciuca_rhapsody_kill6		Oh war is the common cry, Pick up your swords and fly.
-fane_maciuca_rhapsody_kill7		Let the music be your master. Will you heed the master's call?
+fane_maciuca_rhapsody_kill3		OH! Das Lied bleibt das seeeelbe.
+fane_maciuca_rhapsody_kill4		Schliesse die Türen, löschte das Licht, denn du wirst heute Abend nich Zuhause sein...
+fane_maciuca_rhapsody_kill5		Es ist nur ein Frühjahrsputz für die Mai-Königin.
+fane_maciuca_rhapsody_kill6		Oh der Krieg ist der gemeinsame Schrei, erhebt eure Schwerter und fliegt.
+fane_maciuca_rhapsody_kill7		Lass die Musik dein Meister sein. Beachtest du den Ruf des Meisters?
 
-fane_maciuca_rhapsody_respawn1	I'm having a nervous breakdown, Drive me insane!
-fane_maciuca_rhapsody_respawn2	I've been dazed and confused...
-fane_maciuca_rhapsody_respawn3	Gonna love you baby, here I come again!!
-fane_maciuca_rhapsody_respawn4	Will your tongue wag so much when I send you the bill?
-fane_maciuca_rhapsody_respawn5	They hold no quarter.
+fane_maciuca_rhapsody_respawn1	Ich habe einen Nervenzusammenbruch, fahr mich ins Irrenhaus!
+fane_maciuca_rhapsody_respawn2	Ich war benommen und verwirrt...
+fane_maciuca_rhapsody_respawn3	Ich liebe dich Baby, ich komme wieder!!
+fane_maciuca_rhapsody_respawn4	Wird deine Zunge so locker sein, wenn ich dir die Rechnung sende?
+fane_maciuca_rhapsody_respawn5	Sie halten kein Pardon.
 
-fane_maciuca_rhapsody_death1	What is and What Should Never Be
-fane_maciuca_rhapsody_death2	Some people cry and some people die by the wicked ways of love.
-fane_maciuca_rhapsody_death3	The pain of war cannot exceed the woe of aftermath.
-fane_maciuca_rhapsody_death4	Upon us all a little rain must fall.
-fane_maciuca_rhapsody_death5	Babe, baby, baby, I'm Gonna Leave You.
-fane_maciuca_rhapsody_death6	So this is the stairway to heaven?
+fane_maciuca_rhapsody_death1	Was ist und was nie sollte sein
+fane_maciuca_rhapsody_death2	Manche Menschen weinen und einige Menschen sterben, von den bösen Wegen der Liebe.
+fane_maciuca_rhapsody_death3	Der Schmerz des Krieges kann die Folgen der Wehe nicht überschreiten.
+fane_maciuca_rhapsody_death4	Auf uns alle muss wenig Regen fallen.
+fane_maciuca_rhapsody_death5	Liebling, Liebling, ich werde dich verlassen.
+fane_maciuca_rhapsody_death6	Das ist also die Treppe in den Himmel?
 
 /////////////////////////////////////////
 //V1P3R`'s Engineer bot custom messages
 
-viper_engineer_kill1	You thought you had a chance? I did the math.
-viper_engineer_kill2	I think you forget, I am good with calculation.
-viper_engineer_kill3	Heimerdinger has got nothing on me.
-viper_engineer_kill4	That was easier than computing quadratic air resistance.
-viper_engineer_kill5	Something more challenging please, it's like I am proving the uncertainty principle.
-viper_engineer_kill6	That was about as simple as understanding the time-dependent Schrödinger equation.
+viper_engineer_kill1			Du dachtest, du hättest eine Chance? Ich habe es berechnet.
+viper_engineer_kill2			Ich denke, du hast es vergessen. Ich bin gut im Rechnen.
+viper_engineer_kill3			Heimerdinger hat nichts auf mir.
+viper_engineer_kill4			Das war leichter, als den quadratischen Luftwiderstand zu berechnen.
+viper_engineer_kill5			Etwas mehr Herausforderung bitte, es ist als ob ich die Unschärferelation beweise.
+viper_engineer_kill6			Das war ungefähr so einfach wie das Verständnis der zeitabhängigen Schrödinger-Gleichung.
 
 /////////////////////////////////////////
 //Schnarchnase's Gravekeeper bot custom messages
 
-schnarchnase_grave_kill1		Don't worry. Soon you will be one of my lovely zombies!
-schnarchnase_grave_kill2		Catch a corpse!
-schnarchnase_grave_kill3		Rest in pieces.
-schnarchnase_grave_kill4		Another happy customer!
-schnarchnase_grave_kill5		Whoops! Sorry, it was a mistake. Don't take it personally.
-schnarchnase_grave_kill6		To be continued!
-schnarchnase_grave_kill7 		Once Upon a time there was a hero. The End.
+schnarchnase_grave_kill1		Keine Sorge. Du wirst bald einer meiner schönen Zombies!
+schnarchnase_grave_kill2		Fange eine Leiche!
+schnarchnase_grave_kill3		Ruhe in Stücken.
+schnarchnase_grave_kill4		Ein weiterer zufriedener Kunde!
+schnarchnase_grave_kill5		Uups! Entschuldigung, das war ein Fehler. Nimm es nicht persönlich.
+schnarchnase_grave_kill6		Fortsetzung folgt!
+schnarchnase_grave_kill7 		Es war einmal ein Held. Ende.
 
-schnarchnase_grave_respawn1		I will spit on your grave!
-schnarchnase_grave_respawn2		Welcome to Zombie-Land 3.0
-schnarchnase_grave_respawn3		I need some fresh corpses
-schnarchnase_grave_respawn4		Time to get serious.
+schnarchnase_grave_respawn1		Ich werde auf dein Grab spucken!
+schnarchnase_grave_respawn2		Willkommen in Zombie-Land 3.0
+schnarchnase_grave_respawn3		Ich brauche ein paar frische Leichen
+schnarchnase_grave_respawn4		Zeit sich ernsthaft zu verhalten.
 
-schnarchnase_grave_death1		I will be back the day after tomorrow.
-schnarchnase_grave_death2		That's why, I always carry a tombstone.
-schnarchnase_grave_death3		Ugh, I hate rigor mortis.
-schnarchnase_grave_death4		Restarting.
+schnarchnase_grave_death1		Ich werde übermorgen wiederkommen.
+schnarchnase_grave_death2		Aus diesem Grund, habe immer einen Grabstein dabei.
+schnarchnase_grave_death3		Aah, ich hasse die Totenstarre.
+schnarchnase_grave_death4		Neustart.
 
 /////////////////////////////////////////
 //Anakonda's Moon Queen bot custom messages
 
-anakonda_moonqueen_kill1		Shot by the Moon.
-anakonda_moonqueen_kill2		Harvest moon.
-anakonda_moonqueen_kill3		Feel the power of the moon.
-anakonda_moonqueen_kill4		Take one and pass it on.
-anakonda_moonqueen_kill5		One to the other.
+anakonda_moonqueen_kill1		Schuss durch den Mond.
+anakonda_moonqueen_kill2		Erntemond.
+anakonda_moonqueen_kill3		Spüren die Kraft des Mondes.
+anakonda_moonqueen_kill4		Nimm einen und gib nicht an.
+anakonda_moonqueen_kill5		Einer nach dem anderen.
 
-anakonda_moonqueen_respawn1		By the moonlight.
-anakonda_moonqueen_respawn2		Moonlight guide me.
+anakonda_moonqueen_respawn1		Durch den Mondschein.
+anakonda_moonqueen_respawn2		Das Monlicht fürt mich.
 
-anakonda_moonqueen_death1		Carried away by a moonlight shadow.
+anakonda_moonqueen_death1		Der Weg von Mondlicht-Schatten erleuchtet.
 
 /////////////////////////////////////////
 //Kairus101's Balphagore bot custom messages
 
-kairus101_balphagore_kill1		 * Spews all over keyboard * 
-kairus101_balphagore_kill2		Get trashed kid.
+kairus101_balphagore_kill1		* Spuckt über die ganze Tastatur *
+kairus101_balphagore_kill2		Ab in den Müll, Kind.
 kairus101_balphagore_kill3		BWAHAHAHAHA!
-kairus101_balphagore_kill4		Yummy!
-kairus101_balphagore_kill5		Feeling.. trapped?
+kairus101_balphagore_kill4		Lecker!
+kairus101_balphagore_kill5		Fühlst du dich.. gefangen?
 
-kairus101_balphagore_death1		Going to leave me here to rot?
-kairus101_balphagore_death2		Bargh, my minions got stuck..
+kairus101_balphagore_death1		Lässt du mich hier zum verotten zurück?
+kairus101_balphagore_death2		Ach, meine Lakaien ind steckengeblieben..
 kairus101_balphagore_death3		Du machst mich krank!
 kairus101_balphagore_death4		Ich wurde S2't..
 kairus101_balphagore_death5		Team? TEAM??
-kairus101_balphagore_death6		Hey, you used a cheat code!
-kairus101_balphagore_death7		Go my minions!
+kairus101_balphagore_death6		Hey, du hast geschwindelt!
+kairus101_balphagore_death7		Geht meine Lakaien!
 
 /////////////////////////////////////////
 // Rinestone's Revnant bot custom messages
 
-rinestone_revenant_kill1		BOO!
-rinestone_revenant_kill2		Scream more for me!
-rinestone_revenant_kill3		You can't kill what is already dead!
-rinestone_revenant_kill4		Death consumes you!
-rinestone_revenant_kill5		Defiled!
-rinestone_revenant_kill6		May the Afterlife consume you.
+rinestone_revenant_kill1		BUH!
+rinestone_revenant_kill2		Schrei mehr für mich!
+rinestone_revenant_kill3		Du kanst nichts töten was schon tot ist!
+rinestone_revenant_kill4		Der Tod verbraucht dich!
+rinestone_revenant_kill5		Entehrt!
+rinestone_revenant_kill6		Soll das Jenseits dich vernichten.
 
-rinestone_revenant_death1		I thought I was dead already...
-rinestone_revenant_death2		I haven't reached my scare quota yet..
-rinestone_revenant_death3		I'll be back! Don't you worry...
-rinestone_revenant_death4		Back to the grave...
-rinestone_revenant_death5		I dissipate....
-rinestone_revenant_death6		Cast to the winds....
+rinestone_revenant_death1		Ich dachte ich sei schon Tot...
+rinestone_revenant_death2		Ich habe meine Dosis Angst noch nicht erreicht..
+rinestone_revenant_death3		Ich komme wieder! Mach dir keine Sorgen...
+rinestone_revenant_death4		Zurück zum Grab...
+rinestone_revenant_death5		Ich zersplittere....
+rinestone_revenant_death6		In den Wind geschlagen....
 
 // End - do not delete this line
